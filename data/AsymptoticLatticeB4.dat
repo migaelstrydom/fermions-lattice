@@ -1,0 +1,650 @@
+{{Cp[1], Cp[2], Cp[3], Cp[4], Cp[5], Cp[6], Cp[7], Cp[8]}, 
+ {(I/2)*(-2*ky*Cp[2] + B*x*Cp[2] + 2*(kx - \[Omega])*Cp[3]) - 
+   (Sqrt[2]*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+         \[Lambda]^2))*Pi^(3/2)*(Cp[6] + I*Cp[7])*U[0])/
+    (Sqrt[Bc]*Abs[\[Lambda]]), 
+  (-I/2)*(-2*ky*Cp[1] + B*x*Cp[1] + 2*(-kx + \[Omega])*Cp[4]) + 
+   (Sqrt[2]*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+         \[Lambda]^2))*Pi^(3/2)*(Cp[5] - I*Cp[8])*U[0])/
+    (Sqrt[Bc]*Abs[\[Lambda]]), (-I/2)*(2*kx*Cp[1] + 2*\[Omega]*Cp[1] - 
+    2*ky*Cp[4] + B*x*Cp[4] - 
+    (2*Sqrt[2]*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+          \[Lambda]^2))*Pi^(3/2)*(Cp[5] - I*Cp[8])*U[0])/
+     (Sqrt[Bc]*Abs[\[Lambda]])), 
+  (I/2)*(-2*kx*Cp[2] - 2*\[Omega]*Cp[2] - 2*ky*Cp[3] + B*x*Cp[3]) + 
+   (I*Sqrt[2]*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+         \[Lambda]^2))*Pi^(3/2)*(Cp[6] + I*Cp[7])*U[0])/
+    (Sqrt[Bc]*Abs[\[Lambda]]), 
+  (I/2)*(-2*ky*Cp[6] + B*x*Cp[6] + 2*(kx - \[Omega])*Cp[7]) - 
+   (Sqrt[2]*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+         \[Lambda]^2))*Pi^(3/2)*(Cp[2] - I*Cp[3])*U[0])/
+    (Sqrt[Bc]*Abs[\[Lambda]]), 
+  (-I/2)*(-2*ky*Cp[5] + B*x*Cp[5] + 2*(-kx + \[Omega])*Cp[8]) + 
+   (Sqrt[2]*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+         \[Lambda]^2))*Pi^(3/2)*(Cp[1] + I*Cp[4])*U[0])/
+    (Sqrt[Bc]*Abs[\[Lambda]]), (-I/2)*(2*kx*Cp[5] + 2*\[Omega]*Cp[5] - 
+    2*ky*Cp[8] + B*x*Cp[8] + 
+    (2*Sqrt[2]*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+          \[Lambda]^2))*Pi^(3/2)*(Cp[1] + I*Cp[4])*U[0])/
+     (Sqrt[Bc]*Abs[\[Lambda]])), 
+  (I/2)*(-2*kx*Cp[6] - 2*\[Omega]*Cp[6] - 2*ky*Cp[7] + B*x*Cp[7]) - 
+   (I*Sqrt[2]*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+         \[Lambda]^2))*Pi^(3/2)*(Cp[2] - I*Cp[3])*U[0])/
+    (Sqrt[Bc]*Abs[\[Lambda]])}, 
+ {(Bc*(4*kx^2 + 4*ky^2 - 4*B*ky*x + B^2*x^2 - 4*\[Omega]^2)*Abs[\[Lambda]]^2*
+     Cp[1] - 16*E^(I*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+         \[Lambda]^2))*Pi^3*(Cp[1] + I*Cp[4])*U[0]^2 - 
+    4*Sqrt[2]*Sqrt[Bc]*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + 
+        (ky*(ky*Pi + 2*K*\[Lambda]))/\[Lambda]^2))*Pi^(3/2)*Abs[\[Lambda]]*
+     (2*kx*Cp[5]*U[0] + (2*I)*ky*Cp[5]*U[0] - I*B*x*Cp[5]*U[0] + 
+      Cp[6]*Derivative[1][U][0] + I*Cp[7]*Derivative[1][U][0]))/
+   (8*Bc*Abs[\[Lambda]]^2), 
+  (Bc*(4*kx^2 + 4*ky^2 - 4*B*ky*x + B^2*x^2 - 4*\[Omega]^2)*Abs[\[Lambda]]^2*
+     Cp[2] - 16*E^(I*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+         \[Lambda]^2))*Pi^3*(Cp[2] - I*Cp[3])*U[0]^2 - 
+    4*Sqrt[2]*Sqrt[Bc]*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + 
+        (ky*(ky*Pi + 2*K*\[Lambda]))/\[Lambda]^2))*Pi^(3/2)*Abs[\[Lambda]]*
+     (2*kx*Cp[6]*U[0] + I*(2*ky*Cp[6]*U[0] - B*x*Cp[6]*U[0] + 
+        (I*Cp[5] + Cp[8])*Derivative[1][U][0])))/(8*Bc*Abs[\[Lambda]]^2), 
+  (Bc*(4*kx^2 + 4*ky^2 - 4*B*ky*x + B^2*x^2 - 4*\[Omega]^2)*Abs[\[Lambda]]^2*
+     Cp[3] - (16*I)*E^(I*((kx*(I*kx + 2*ky))/Bc + 
+        (ky*(ky*Pi + 2*K*\[Lambda]))/\[Lambda]^2))*Pi^3*(Cp[2] - I*Cp[3])*
+     U[0]^2 - 4*Sqrt[2]*Sqrt[Bc]*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + 
+        (ky*(ky*Pi + 2*K*\[Lambda]))/\[Lambda]^2))*Pi^(3/2)*Abs[\[Lambda]]*
+     (2*kx*Cp[7]*U[0] - I*(-2*ky*Cp[7]*U[0] + B*x*Cp[7]*U[0] + 
+        (Cp[5] - I*Cp[8])*Derivative[1][U][0])))/(8*Bc*Abs[\[Lambda]]^2), 
+  (Bc*(4*kx^2 + 4*ky^2 - 4*B*ky*x + B^2*x^2 - 4*\[Omega]^2)*Abs[\[Lambda]]^2*
+     Cp[4] + (16*I)*E^(I*((kx*(I*kx + 2*ky))/Bc + 
+        (ky*(ky*Pi + 2*K*\[Lambda]))/\[Lambda]^2))*Pi^3*(Cp[1] + I*Cp[4])*
+     U[0]^2 - 4*Sqrt[2]*Sqrt[Bc]*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + 
+        (ky*(ky*Pi + 2*K*\[Lambda]))/\[Lambda]^2))*Pi^(3/2)*Abs[\[Lambda]]*
+     (2*kx*Cp[8]*U[0] - I*(-2*ky*Cp[8]*U[0] + B*x*Cp[8]*U[0] + 
+        Cp[6]*Derivative[1][U][0] + I*Cp[7]*Derivative[1][U][0])))/
+   (8*Bc*Abs[\[Lambda]]^2), 
+  (Bc*(4*kx^2 + 4*ky^2 - 4*B*ky*x + B^2*x^2 - 4*\[Omega]^2)*Abs[\[Lambda]]^2*
+     Cp[5] - 16*E^(I*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+         \[Lambda]^2))*Pi^3*(Cp[5] - I*Cp[8])*U[0]^2 + 
+    4*Sqrt[2]*Sqrt[Bc]*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + 
+        (ky*(ky*Pi + 2*K*\[Lambda]))/\[Lambda]^2))*Pi^(3/2)*Abs[\[Lambda]]*
+     (2*kx*Cp[1]*U[0] + I*(-2*ky*Cp[1]*U[0] + B*x*Cp[1]*U[0] + 
+        (I*Cp[2] + Cp[3])*Derivative[1][U][0])))/(8*Bc*Abs[\[Lambda]]^2), 
+  (Bc*(4*kx^2 + 4*ky^2 - 4*B*ky*x + B^2*x^2 - 4*\[Omega]^2)*Abs[\[Lambda]]^2*
+     Cp[6] - 16*E^(I*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+         \[Lambda]^2))*Pi^3*(Cp[6] + I*Cp[7])*U[0]^2 + 
+    4*Sqrt[2]*Sqrt[Bc]*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + 
+        (ky*(ky*Pi + 2*K*\[Lambda]))/\[Lambda]^2))*Pi^(3/2)*Abs[\[Lambda]]*
+     (2*kx*Cp[2]*U[0] - (2*I)*ky*Cp[2]*U[0] + I*B*x*Cp[2]*U[0] + 
+      Cp[1]*Derivative[1][U][0] + I*Cp[4]*Derivative[1][U][0]))/
+   (8*Bc*Abs[\[Lambda]]^2), 
+  (Bc*(4*kx^2 + 4*ky^2 - 4*B*ky*x + B^2*x^2 - 4*\[Omega]^2)*Abs[\[Lambda]]^2*
+     Cp[7] + (16*I)*E^(I*((kx*(I*kx + 2*ky))/Bc + 
+        (ky*(ky*Pi + 2*K*\[Lambda]))/\[Lambda]^2))*Pi^3*(Cp[6] + I*Cp[7])*
+     U[0]^2 + 4*Sqrt[2]*Sqrt[Bc]*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + 
+        (ky*(ky*Pi + 2*K*\[Lambda]))/\[Lambda]^2))*Pi^(3/2)*Abs[\[Lambda]]*
+     (2*kx*Cp[3]*U[0] - (2*I)*ky*Cp[3]*U[0] + I*B*x*Cp[3]*U[0] - 
+      I*Cp[1]*Derivative[1][U][0] + Cp[4]*Derivative[1][U][0]))/
+   (8*Bc*Abs[\[Lambda]]^2), 
+  (Bc*(4*kx^2 + 4*ky^2 - 4*B*ky*x + B^2*x^2 - 4*\[Omega]^2)*Abs[\[Lambda]]^2*
+     Cp[8] - (16*I)*E^(I*((kx*(I*kx + 2*ky))/Bc + 
+        (ky*(ky*Pi + 2*K*\[Lambda]))/\[Lambda]^2))*Pi^3*(Cp[5] - I*Cp[8])*
+     U[0]^2 + 4*Sqrt[2]*Sqrt[Bc]*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + 
+        (ky*(ky*Pi + 2*K*\[Lambda]))/\[Lambda]^2))*Pi^(3/2)*Abs[\[Lambda]]*
+     (2*kx*Cp[4]*U[0] + I*(-2*ky*Cp[4]*U[0] + B*x*Cp[4]*U[0] - 
+        (Cp[2] - I*Cp[3])*Derivative[1][U][0])))/(8*Bc*Abs[\[Lambda]]^2)}, 
+ {(I*Bc^(3/2)*(4*kx^2 + 4*ky^2 - 4*B*ky*x + B^2*x^2 - 4*\[Omega]^2)*
+     Abs[\[Lambda]]^3*(-2*ky*Cp[2] + B*x*Cp[2] + 2*(kx - \[Omega])*Cp[3]) + 
+    64*Sqrt[2]*E^(((3*I)/2)*((kx*(I*kx + 2*ky))/Bc + 
+        (ky*(ky*Pi + 2*K*\[Lambda]))/\[Lambda]^2))*Pi^(9/2)*(Cp[6] + I*Cp[7])*
+     U[0]^3 + (32*I)*Sqrt[Bc]*E^(I*((kx*(I*kx + 2*ky))/Bc + 
+        (ky*(ky*Pi + 2*K*\[Lambda]))/\[Lambda]^2))*Pi^3*Abs[\[Lambda]]*U[0]*
+     (2*ky*Cp[2]*U[0] - B*x*Cp[2]*U[0] + I*\[Omega]*Cp[2]*U[0] - 
+      2*kx*Cp[3]*U[0] + \[Omega]*Cp[3]*U[0] + 
+      (3*I)*Cp[1]*Derivative[1][U][0] - 3*Cp[4]*Derivative[1][U][0]) - 
+    2*Sqrt[2]*Bc*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + 
+        (ky*(ky*Pi + 2*K*\[Lambda]))/\[Lambda]^2))*Pi^(3/2)*Abs[\[Lambda]]^2*
+     (3*B^2*x^2*Cp[6]*U[0] - 4*\[Omega]^2*Cp[6]*U[0] + 
+      4*ky^2*(3*Cp[6] + I*Cp[7])*U[0] + 4*kx^2*(Cp[6] + (3*I)*Cp[7])*U[0] + 
+      I*B^2*x^2*Cp[7]*U[0] - 4*B*x*\[Omega]*Cp[7]*U[0] - 
+      (4*I)*\[Omega]^2*Cp[7]*U[0] - (6*I)*B*x*Cp[5]*Derivative[1][U][0] + 
+      4*\[Omega]*Cp[5]*Derivative[1][U][0] + 2*B*x*Cp[8]*
+       Derivative[1][U][0] - (4*I)*\[Omega]*Cp[8]*Derivative[1][U][0] + 
+      4*kx*((-2*I)*ky*(Cp[6] - I*Cp[7])*U[0] - (2*I)*\[Omega]*Cp[7]*U[0] + 
+        B*x*(I*Cp[6] + Cp[7])*U[0] + 3*Cp[5]*Derivative[1][U][0] + 
+        I*Cp[8]*Derivative[1][U][0]) - 4*ky*(B*x*(3*Cp[6] + I*Cp[7])*U[0] - 
+        2*\[Omega]*Cp[7]*U[0] + ((-3*I)*Cp[5] + Cp[8])*Derivative[1][U][0]) + 
+      4*Cp[6]*Derivative[2][U][0] + (4*I)*Cp[7]*Derivative[2][U][0]))/
+   (48*Bc^(3/2)*Abs[\[Lambda]]^3), 
+  (I*Bc^(3/2)*(4*kx^2 + 4*ky^2 - 4*B*ky*x + B^2*x^2 - 4*\[Omega]^2)*
+     Abs[\[Lambda]]^3*(2*ky*Cp[1] - B*x*Cp[1] + 2*(kx - \[Omega])*Cp[4]) - 
+    64*Sqrt[2]*E^(((3*I)/2)*((kx*(I*kx + 2*ky))/Bc + 
+        (ky*(ky*Pi + 2*K*\[Lambda]))/\[Lambda]^2))*Pi^(9/2)*(Cp[5] - I*Cp[8])*
+     U[0]^3 + (32*I)*Sqrt[Bc]*E^(I*((kx*(I*kx + 2*ky))/Bc + 
+        (ky*(ky*Pi + 2*K*\[Lambda]))/\[Lambda]^2))*Pi^3*Abs[\[Lambda]]*U[0]*
+     (-2*ky*Cp[1]*U[0] + B*x*Cp[1]*U[0] - I*\[Omega]*Cp[1]*U[0] - 
+      2*kx*Cp[4]*U[0] + \[Omega]*Cp[4]*U[0] + 
+      (3*I)*Cp[2]*Derivative[1][U][0] + 3*Cp[3]*Derivative[1][U][0]) + 
+    2*Sqrt[2]*Bc*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + 
+        (ky*(ky*Pi + 2*K*\[Lambda]))/\[Lambda]^2))*Pi^(3/2)*Abs[\[Lambda]]^2*
+     (3*B^2*x^2*Cp[5]*U[0] - 4*\[Omega]^2*Cp[5]*U[0] + 
+      4*ky^2*(3*Cp[5] - I*Cp[8])*U[0] + 4*kx^2*(Cp[5] - (3*I)*Cp[8])*U[0] - 
+      I*B^2*x^2*Cp[8]*U[0] + 4*B*x*\[Omega]*Cp[8]*U[0] + 
+      (4*I)*\[Omega]^2*Cp[8]*U[0] + (6*I)*B*x*Cp[6]*Derivative[1][U][0] - 
+      4*\[Omega]*Cp[6]*Derivative[1][U][0] + 2*B*x*Cp[7]*
+       Derivative[1][U][0] - (4*I)*\[Omega]*Cp[7]*Derivative[1][U][0] + 
+      (4*I)*kx*(-2*ky*(Cp[5] + I*Cp[8])*U[0] + B*x*(Cp[5] + I*Cp[8])*U[0] + 
+        2*\[Omega]*Cp[8]*U[0] + (3*I)*Cp[6]*Derivative[1][U][0] + 
+        Cp[7]*Derivative[1][U][0]) - 4*ky*(B*x*(3*Cp[5] - I*Cp[8])*U[0] + 
+        2*\[Omega]*Cp[8]*U[0] + ((3*I)*Cp[6] + Cp[7])*Derivative[1][U][0]) + 
+      4*Cp[5]*Derivative[2][U][0] - (4*I)*Cp[8]*Derivative[2][U][0]))/
+   (48*Bc^(3/2)*Abs[\[Lambda]]^3), 
+  ((-I)*Bc^(3/2)*(4*kx^2 + 4*ky^2 - 4*B*ky*x + B^2*x^2 - 4*\[Omega]^2)*
+     Abs[\[Lambda]]^3*(2*kx*Cp[1] + 2*\[Omega]*Cp[1] + (-2*ky + B*x)*Cp[4]) - 
+    (64*I)*Sqrt[2]*E^(((3*I)/2)*((kx*(I*kx + 2*ky))/Bc + 
+        (ky*(ky*Pi + 2*K*\[Lambda]))/\[Lambda]^2))*Pi^(9/2)*(Cp[5] - I*Cp[8])*
+     U[0]^3 + (32*I)*Sqrt[Bc]*E^(I*((kx*(I*kx + 2*ky))/Bc + 
+        (ky*(ky*Pi + 2*K*\[Lambda]))/\[Lambda]^2))*Pi^3*Abs[\[Lambda]]*U[0]*
+     (2*kx*Cp[1]*U[0] + \[Omega]*(Cp[1] + I*Cp[4])*U[0] - 2*ky*Cp[4]*U[0] + 
+      B*x*Cp[4]*U[0] - 3*Cp[2]*Derivative[1][U][0] + 
+      (3*I)*Cp[3]*Derivative[1][U][0]) + 2*Sqrt[2]*Bc*
+     E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+         \[Lambda]^2))*Pi^(3/2)*Abs[\[Lambda]]^2*(I*B^2*x^2*Cp[5]*U[0] + 
+      4*B*x*\[Omega]*Cp[5]*U[0] - (4*I)*\[Omega]^2*Cp[5]*U[0] + 
+      3*B^2*x^2*Cp[8]*U[0] - 4*\[Omega]^2*Cp[8]*U[0] + 
+      4*kx^2*((3*I)*Cp[5] + Cp[8])*U[0] + 4*ky^2*(I*Cp[5] + 3*Cp[8])*U[0] - 
+      2*B*x*Cp[6]*Derivative[1][U][0] - (4*I)*\[Omega]*Cp[6]*
+       Derivative[1][U][0] + (6*I)*B*x*Cp[7]*Derivative[1][U][0] + 
+      4*\[Omega]*Cp[7]*Derivative[1][U][0] + 
+      4*ky*(-2*\[Omega]*Cp[5]*U[0] + B*x*((-I)*Cp[5] - 3*Cp[8])*U[0] + 
+        (Cp[6] - (3*I)*Cp[7])*Derivative[1][U][0]) - 
+      4*kx*((-2*I)*\[Omega]*Cp[5]*U[0] + 2*ky*(Cp[5] + I*Cp[8])*U[0] - 
+        B*x*(Cp[5] + I*Cp[8])*U[0] + I*Cp[6]*Derivative[1][U][0] + 
+        3*Cp[7]*Derivative[1][U][0]) + (4*I)*Cp[5]*Derivative[2][U][0] + 
+      4*Cp[8]*Derivative[2][U][0]))/(48*Bc^(3/2)*Abs[\[Lambda]]^3), 
+  ((-I)*Bc^(3/2)*(4*kx^2 + 4*ky^2 - 4*B*ky*x + B^2*x^2 - 4*\[Omega]^2)*
+     Abs[\[Lambda]]^3*(2*kx*Cp[2] + 2*\[Omega]*Cp[2] + (2*ky - B*x)*Cp[3]) + 
+    64*Sqrt[2]*E^(((3*I)/2)*((kx*(I*kx + 2*ky))/Bc + 
+        (ky*(ky*Pi + 2*K*\[Lambda]))/\[Lambda]^2))*Pi^(9/2)*
+     ((-I)*Cp[6] + Cp[7])*U[0]^3 + (32*I)*Sqrt[Bc]*
+     E^(I*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/\[Lambda]^2))*
+     Pi^3*Abs[\[Lambda]]*U[0]*(2*kx*Cp[2]*U[0] + \[Omega]*(Cp[2] - I*Cp[3])*
+       U[0] + 2*ky*Cp[3]*U[0] - B*x*Cp[3]*U[0] + 
+      3*Cp[1]*Derivative[1][U][0] + (3*I)*Cp[4]*Derivative[1][U][0]) + 
+    2*Sqrt[2]*Bc*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + 
+        (ky*(ky*Pi + 2*K*\[Lambda]))/\[Lambda]^2))*Pi^(3/2)*Abs[\[Lambda]]^2*
+     (I*B^2*x^2*Cp[6]*U[0] + 4*B*x*\[Omega]*Cp[6]*U[0] - 
+      (4*I)*\[Omega]^2*Cp[6]*U[0] + 4*kx^2*((3*I)*Cp[6] - Cp[7])*U[0] + 
+      (4*I)*ky^2*(Cp[6] + (3*I)*Cp[7])*U[0] - 3*B^2*x^2*Cp[7]*U[0] + 
+      4*\[Omega]^2*Cp[7]*U[0] + 2*B*x*Cp[5]*Derivative[1][U][0] + 
+      (4*I)*\[Omega]*Cp[5]*Derivative[1][U][0] + (6*I)*B*x*Cp[8]*
+       Derivative[1][U][0] + 4*\[Omega]*Cp[8]*Derivative[1][U][0] - 
+      4*ky*(2*\[Omega]*Cp[6]*U[0] + I*B*x*(Cp[6] + (3*I)*Cp[7])*U[0] + 
+        (Cp[5] + (3*I)*Cp[8])*Derivative[1][U][0]) + 
+      4*kx*(-2*ky*(Cp[6] - I*Cp[7])*U[0] + B*x*(Cp[6] - I*Cp[7])*U[0] + 
+        I*(2*\[Omega]*Cp[6]*U[0] + (Cp[5] + (3*I)*Cp[8])*Derivative[1][U][
+            0])) + (4*I)*Cp[6]*Derivative[2][U][0] - 
+      4*Cp[7]*Derivative[2][U][0]))/(48*Bc^(3/2)*Abs[\[Lambda]]^3), 
+  (I*Bc^(3/2)*(4*kx^2 + 4*ky^2 - 4*B*ky*x + B^2*x^2 - 4*\[Omega]^2)*
+     Abs[\[Lambda]]^3*(-2*ky*Cp[6] + B*x*Cp[6] + 2*(kx - \[Omega])*Cp[7]) + 
+    64*Sqrt[2]*E^(((3*I)/2)*((kx*(I*kx + 2*ky))/Bc + 
+        (ky*(ky*Pi + 2*K*\[Lambda]))/\[Lambda]^2))*Pi^(9/2)*(Cp[2] - I*Cp[3])*
+     U[0]^3 + (32*I)*Sqrt[Bc]*E^(I*((kx*(I*kx + 2*ky))/Bc + 
+        (ky*(ky*Pi + 2*K*\[Lambda]))/\[Lambda]^2))*Pi^3*Abs[\[Lambda]]*U[0]*
+     (2*ky*Cp[6]*U[0] - B*x*Cp[6]*U[0] - I*\[Omega]*Cp[6]*U[0] - 
+      2*kx*Cp[7]*U[0] + \[Omega]*Cp[7]*U[0] + 
+      (3*I)*Cp[5]*Derivative[1][U][0] + 3*Cp[8]*Derivative[1][U][0]) - 
+    2*Sqrt[2]*Bc*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + 
+        (ky*(ky*Pi + 2*K*\[Lambda]))/\[Lambda]^2))*Pi^(3/2)*Abs[\[Lambda]]^2*
+     (3*B^2*x^2*Cp[2]*U[0] - 4*\[Omega]^2*Cp[2]*U[0] + 
+      4*ky^2*(3*Cp[2] - I*Cp[3])*U[0] + 4*kx^2*(Cp[2] - (3*I)*Cp[3])*U[0] - 
+      I*B^2*x^2*Cp[3]*U[0] - 4*B*x*\[Omega]*Cp[3]*U[0] + 
+      (4*I)*\[Omega]^2*Cp[3]*U[0] - (6*I)*B*x*Cp[1]*Derivative[1][U][0] - 
+      4*\[Omega]*Cp[1]*Derivative[1][U][0] - 2*B*x*Cp[4]*
+       Derivative[1][U][0] - (4*I)*\[Omega]*Cp[4]*Derivative[1][U][0] + 
+      4*ky*(B*x*(-3*Cp[2] + I*Cp[3])*U[0] + 2*\[Omega]*Cp[3]*U[0] + 
+        ((3*I)*Cp[1] + Cp[4])*Derivative[1][U][0]) + 
+      4*kx*((2*I)*ky*(Cp[2] + I*Cp[3])*U[0] + B*x*((-I)*Cp[2] + Cp[3])*U[0] + 
+        I*(2*\[Omega]*Cp[3]*U[0] + ((3*I)*Cp[1] + Cp[4])*Derivative[1][U][
+            0])) + 4*Cp[2]*Derivative[2][U][0] - 
+      (4*I)*Cp[3]*Derivative[2][U][0]))/(48*Bc^(3/2)*Abs[\[Lambda]]^3), 
+  (I*Bc^(3/2)*(4*kx^2 + 4*ky^2 - 4*B*ky*x + B^2*x^2 - 4*\[Omega]^2)*
+     Abs[\[Lambda]]^3*(2*ky*Cp[5] - B*x*Cp[5] + 2*(kx - \[Omega])*Cp[8]) - 
+    64*Sqrt[2]*E^(((3*I)/2)*((kx*(I*kx + 2*ky))/Bc + 
+        (ky*(ky*Pi + 2*K*\[Lambda]))/\[Lambda]^2))*Pi^(9/2)*(Cp[1] + I*Cp[4])*
+     U[0]^3 - (32*I)*Sqrt[Bc]*E^(I*((kx*(I*kx + 2*ky))/Bc + 
+        (ky*(ky*Pi + 2*K*\[Lambda]))/\[Lambda]^2))*Pi^3*Abs[\[Lambda]]*U[0]*
+     (2*ky*Cp[5]*U[0] - B*x*Cp[5]*U[0] - I*\[Omega]*Cp[5]*U[0] + 
+      2*kx*Cp[8]*U[0] - \[Omega]*Cp[8]*U[0] - 
+      (3*I)*Cp[6]*Derivative[1][U][0] + 3*Cp[7]*Derivative[1][U][0]) + 
+    2*Sqrt[2]*Bc*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + 
+        (ky*(ky*Pi + 2*K*\[Lambda]))/\[Lambda]^2))*Pi^(3/2)*Abs[\[Lambda]]^2*
+     (3*B^2*x^2*Cp[1]*U[0] - 4*\[Omega]^2*Cp[1]*U[0] + 
+      4*ky^2*(3*Cp[1] + I*Cp[4])*U[0] + 4*kx^2*(Cp[1] + (3*I)*Cp[4])*U[0] + 
+      I*B^2*x^2*Cp[4]*U[0] + 4*B*x*\[Omega]*Cp[4]*U[0] - 
+      (4*I)*\[Omega]^2*Cp[4]*U[0] + (6*I)*B*x*Cp[2]*Derivative[1][U][0] + 
+      4*\[Omega]*Cp[2]*Derivative[1][U][0] - 2*B*x*Cp[3]*
+       Derivative[1][U][0] - (4*I)*\[Omega]*Cp[3]*Derivative[1][U][0] - 
+      4*ky*(B*x*(3*Cp[1] + I*Cp[4])*U[0] + 2*\[Omega]*Cp[4]*U[0] + 
+        ((3*I)*Cp[2] - Cp[3])*Derivative[1][U][0]) + 
+      4*kx*(B*x*((-I)*Cp[1] - Cp[4])*U[0] - (2*I)*\[Omega]*Cp[4]*U[0] + 
+        2*ky*(I*Cp[1] + Cp[4])*U[0] + 3*Cp[2]*Derivative[1][U][0] + 
+        I*Cp[3]*Derivative[1][U][0]) + 4*Cp[1]*Derivative[2][U][0] + 
+      (4*I)*Cp[4]*Derivative[2][U][0]))/(48*Bc^(3/2)*Abs[\[Lambda]]^3), 
+  ((-I)*Bc^(3/2)*(4*kx^2 + 4*ky^2 - 4*B*ky*x + B^2*x^2 - 4*\[Omega]^2)*
+     Abs[\[Lambda]]^3*(2*kx*Cp[5] + 2*\[Omega]*Cp[5] + (-2*ky + B*x)*Cp[8]) + 
+    (64*I)*Sqrt[2]*E^(((3*I)/2)*((kx*(I*kx + 2*ky))/Bc + 
+        (ky*(ky*Pi + 2*K*\[Lambda]))/\[Lambda]^2))*Pi^(9/2)*(Cp[1] + I*Cp[4])*
+     U[0]^3 + (32*I)*Sqrt[Bc]*E^(I*((kx*(I*kx + 2*ky))/Bc + 
+        (ky*(ky*Pi + 2*K*\[Lambda]))/\[Lambda]^2))*Pi^3*Abs[\[Lambda]]*U[0]*
+     (2*kx*Cp[5]*U[0] + \[Omega]*(Cp[5] - I*Cp[8])*U[0] - 2*ky*Cp[8]*U[0] + 
+      B*x*Cp[8]*U[0] + 3*Cp[6]*Derivative[1][U][0] + 
+      (3*I)*Cp[7]*Derivative[1][U][0]) + 2*Sqrt[2]*Bc*
+     E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+         \[Lambda]^2))*Pi^(3/2)*Abs[\[Lambda]]^2*((-I)*B^2*x^2*Cp[1]*U[0] + 
+      4*B*x*\[Omega]*Cp[1]*U[0] + (4*I)*\[Omega]^2*Cp[1]*U[0] + 
+      3*B^2*x^2*Cp[4]*U[0] - 4*\[Omega]^2*Cp[4]*U[0] + 
+      4*kx^2*((-3*I)*Cp[1] + Cp[4])*U[0] + 4*ky^2*((-I)*Cp[1] + 3*Cp[4])*
+       U[0] + 2*B*x*Cp[2]*Derivative[1][U][0] - (4*I)*\[Omega]*Cp[2]*
+       Derivative[1][U][0] + (6*I)*B*x*Cp[3]*Derivative[1][U][0] - 
+      4*\[Omega]*Cp[3]*Derivative[1][U][0] - 
+      4*kx*(2*ky*(Cp[1] - I*Cp[4])*U[0] - B*x*(Cp[1] - I*Cp[4])*U[0] + 
+        I*(2*\[Omega]*Cp[1]*U[0] + (Cp[2] + (3*I)*Cp[3])*Derivative[1][U][
+            0])) + (4*I)*ky*(B*x*(Cp[1] + (3*I)*Cp[4])*U[0] + 
+        I*(2*\[Omega]*Cp[1]*U[0] + (Cp[2] + (3*I)*Cp[3])*Derivative[1][U][
+            0])) - (4*I)*Cp[1]*Derivative[2][U][0] + 
+      4*Cp[4]*Derivative[2][U][0]))/(48*Bc^(3/2)*Abs[\[Lambda]]^3), 
+  ((-I)*Bc^(3/2)*(4*kx^2 + 4*ky^2 - 4*B*ky*x + B^2*x^2 - 4*\[Omega]^2)*
+     Abs[\[Lambda]]^3*(2*kx*Cp[6] + 2*\[Omega]*Cp[6] + (2*ky - B*x)*Cp[7]) + 
+    64*Sqrt[2]*E^(((3*I)/2)*((kx*(I*kx + 2*ky))/Bc + 
+        (ky*(ky*Pi + 2*K*\[Lambda]))/\[Lambda]^2))*Pi^(9/2)*(I*Cp[2] + Cp[3])*
+     U[0]^3 + (32*I)*Sqrt[Bc]*E^(I*((kx*(I*kx + 2*ky))/Bc + 
+        (ky*(ky*Pi + 2*K*\[Lambda]))/\[Lambda]^2))*Pi^3*Abs[\[Lambda]]*U[0]*
+     (2*kx*Cp[6]*U[0] + \[Omega]*(Cp[6] + I*Cp[7])*U[0] + 2*ky*Cp[7]*U[0] - 
+      B*x*Cp[7]*U[0] - 3*Cp[5]*Derivative[1][U][0] + 
+      (3*I)*Cp[8]*Derivative[1][U][0]) + 2*Sqrt[2]*Bc*
+     E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+         \[Lambda]^2))*Pi^(3/2)*Abs[\[Lambda]]^2*((-I)*B^2*x^2*Cp[2]*U[0] + 
+      4*B*x*\[Omega]*Cp[2]*U[0] + (4*I)*\[Omega]^2*Cp[2]*U[0] + 
+      4*kx^2*((-3*I)*Cp[2] - Cp[3])*U[0] - (4*I)*ky^2*(Cp[2] - (3*I)*Cp[3])*
+       U[0] - 3*B^2*x^2*Cp[3]*U[0] + 4*\[Omega]^2*Cp[3]*U[0] - 
+      2*B*x*Cp[1]*Derivative[1][U][0] + (4*I)*\[Omega]*Cp[1]*
+       Derivative[1][U][0] + (6*I)*B*x*Cp[4]*Derivative[1][U][0] - 
+      4*\[Omega]*Cp[4]*Derivative[1][U][0] + 
+      4*ky*(-2*\[Omega]*Cp[2]*U[0] + B*x*(I*Cp[2] + 3*Cp[3])*U[0] + 
+        (Cp[1] - (3*I)*Cp[4])*Derivative[1][U][0]) + 
+      4*kx*((-2*I)*\[Omega]*Cp[2]*U[0] - 2*ky*(Cp[2] + I*Cp[3])*U[0] + 
+        B*x*(Cp[2] + I*Cp[3])*U[0] + I*Cp[1]*Derivative[1][U][0] + 
+        3*Cp[4]*Derivative[1][U][0]) - (4*I)*Cp[2]*Derivative[2][U][0] - 
+      4*Cp[3]*Derivative[2][U][0]))/(48*Bc^(3/2)*Abs[\[Lambda]]^3)}, 
+ {(Bc^2*(96 + 16*kx^4 + 16*ky^4 + 48*L*m - 32*B*ky^3*x + B^4*x^4 - 
+      8*B^2*x^2*\[Omega]^2 + 16*\[Omega]^4 + 
+      8*kx^2*(4*ky^2 - 4*B*ky*x + B^2*x^2 - 4*\[Omega]^2) + 
+      8*ky^2*(3*B^2*x^2 - 4*\[Omega]^2) - 8*ky*(B^3*x^3 - 4*B*x*\[Omega]^2))*
+     Abs[\[Lambda]]^4*Cp[1] + 
+    512*E^((2*I)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+         \[Lambda]^2))*Pi^6*(Cp[1] + I*Cp[4])*U[0]^4 + 
+    128*Sqrt[2]*Sqrt[Bc]*E^(((3*I)/2)*((kx*(I*kx + 2*ky))/Bc + 
+        (ky*(ky*Pi + 2*K*\[Lambda]))/\[Lambda]^2))*Pi^(9/2)*Abs[\[Lambda]]*
+     U[0]^2*(2*kx*Cp[5]*U[0] + (2*I)*ky*Cp[5]*U[0] - I*B*x*Cp[5]*U[0] + 
+      6*Cp[6]*Derivative[1][U][0] + (6*I)*Cp[7]*Derivative[1][U][0]) - 
+    32*Bc*E^(I*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+         \[Lambda]^2))*Pi^3*Abs[\[Lambda]]^2*(2*B^2*x^2*Cp[1]*U[0]^2 - 
+      4*\[Omega]^2*Cp[1]*U[0]^2 + 4*kx^2*(2*Cp[1] + I*Cp[4])*U[0]^2 + 
+      4*ky^2*(2*Cp[1] + I*Cp[4])*U[0]^2 + I*B^2*x^2*Cp[4]*U[0]^2 - 
+      (4*I)*\[Omega]^2*Cp[4]*U[0]^2 + (8*I)*B*x*Cp[2]*U[0]*
+       Derivative[1][U][0] + 8*\[Omega]*Cp[2]*U[0]*Derivative[1][U][0] + 
+      4*kx*(Cp[2] + (4*I)*Cp[3])*U[0]*Derivative[1][U][0] - 
+      2*B*x*Cp[3]*U[0]*Derivative[1][U][0] - (8*I)*\[Omega]*Cp[3]*U[0]*
+       Derivative[1][U][0] + 6*Cp[1]*Derivative[1][U][0]^2 + 
+      (6*I)*Cp[4]*Derivative[1][U][0]^2 - 
+      4*ky*U[0]*(B*x*(2*Cp[1] + I*Cp[4])*U[0] + ((4*I)*Cp[2] - Cp[3])*
+         Derivative[1][U][0]) + 8*Cp[1]*U[0]*Derivative[2][U][0] + 
+      (8*I)*Cp[4]*U[0]*Derivative[2][U][0]) - 8*Sqrt[2]*Bc^(3/2)*
+     E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+         \[Lambda]^2))*Pi^(3/2)*Abs[\[Lambda]]^3*(8*kx^3*Cp[5]*U[0] + 
+      4*kx^2*((2*I)*ky*Cp[5]*U[0] - I*B*x*Cp[5]*U[0] + (Cp[6] + (3*I)*Cp[7])*
+         Derivative[1][U][0]) + 2*kx*(4*ky^2*Cp[5]*U[0] + 
+        B^2*x^2*Cp[5]*U[0] - 4*\[Omega]^2*Cp[5]*U[0] - (4*I)*\[Omega]*Cp[7]*
+         Derivative[1][U][0] + 2*B*x*(I*Cp[6] + Cp[7])*Derivative[1][U][0] - 
+        4*ky*(B*x*Cp[5]*U[0] + (I*Cp[6] + Cp[7])*Derivative[1][U][0]) + 
+        4*Cp[5]*Derivative[2][U][0] + (2*I)*Cp[8]*Derivative[2][U][0]) - 
+      I*(-8*ky^3*Cp[5]*U[0] + B^3*x^3*Cp[5]*U[0] - (4*I)*\[Omega]^2*Cp[6]*
+         Derivative[1][U][0] + B^2*x^2*((3*I)*Cp[6] - Cp[7])*
+         Derivative[1][U][0] + 4*\[Omega]^2*Cp[7]*Derivative[1][U][0] + 
+        4*ky^2*(3*B*x*Cp[5]*U[0] + ((3*I)*Cp[6] - Cp[7])*Derivative[1][U][
+            0]) + (4*I)*\[Omega]*Cp[5]*Derivative[2][U][0] + 
+        4*\[Omega]*Cp[8]*Derivative[2][U][0] + 
+        2*B*x*(-2*\[Omega]^2*Cp[5]*U[0] - (2*I)*\[Omega]*Cp[7]*
+           Derivative[1][U][0] + (2*Cp[5] + I*Cp[8])*Derivative[2][U][0]) - 
+        2*ky*(3*B^2*x^2*Cp[5]*U[0] - 4*\[Omega]^2*Cp[5]*U[0] + 
+          2*B*x*((3*I)*Cp[6] - Cp[7])*Derivative[1][U][0] - 
+          (4*I)*\[Omega]*Cp[7]*Derivative[1][U][0] + 2*(2*Cp[5] + I*Cp[8])*
+           Derivative[2][U][0]) + (2*I)*Cp[6]*Derivative[3][U][0] - 
+        2*Cp[7]*Derivative[3][U][0])))/(384*Bc^2*Abs[\[Lambda]]^4), 
+  (Bc^2*(96 + 16*kx^4 + 16*ky^4 - 48*L*m - 32*B*ky^3*x + B^4*x^4 - 
+      8*B^2*x^2*\[Omega]^2 + 16*\[Omega]^4 + 
+      8*kx^2*(4*ky^2 - 4*B*ky*x + B^2*x^2 - 4*\[Omega]^2) + 
+      8*ky^2*(3*B^2*x^2 - 4*\[Omega]^2) - 8*ky*(B^3*x^3 - 4*B*x*\[Omega]^2))*
+     Abs[\[Lambda]]^4*Cp[2] + 
+    512*E^((2*I)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+         \[Lambda]^2))*Pi^6*(Cp[2] - I*Cp[3])*U[0]^4 + 
+    128*Sqrt[2]*Sqrt[Bc]*E^(((3*I)/2)*((kx*(I*kx + 2*ky))/Bc + 
+        (ky*(ky*Pi + 2*K*\[Lambda]))/\[Lambda]^2))*Pi^(9/2)*Abs[\[Lambda]]*
+     U[0]^2*(2*kx*Cp[6]*U[0] + I*(2*ky*Cp[6]*U[0] - B*x*Cp[6]*U[0] + 
+        (6*I)*Cp[5]*Derivative[1][U][0] + 6*Cp[8]*Derivative[1][U][0])) - 
+    32*Bc*E^(I*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+         \[Lambda]^2))*Pi^3*Abs[\[Lambda]]^2*(2*B^2*x^2*Cp[2]*U[0]^2 - 
+      4*\[Omega]^2*Cp[2]*U[0]^2 + 4*kx^2*(2*Cp[2] - I*Cp[3])*U[0]^2 + 
+      4*ky^2*(2*Cp[2] - I*Cp[3])*U[0]^2 - I*B^2*x^2*Cp[3]*U[0]^2 + 
+      (4*I)*\[Omega]^2*Cp[3]*U[0]^2 - (8*I)*B*x*Cp[1]*U[0]*
+       Derivative[1][U][0] - 8*\[Omega]*Cp[1]*U[0]*Derivative[1][U][0] - 
+      4*kx*(Cp[1] - (4*I)*Cp[4])*U[0]*Derivative[1][U][0] - 
+      2*B*x*Cp[4]*U[0]*Derivative[1][U][0] - (8*I)*\[Omega]*Cp[4]*U[0]*
+       Derivative[1][U][0] + 6*Cp[2]*Derivative[1][U][0]^2 - 
+      (6*I)*Cp[3]*Derivative[1][U][0]^2 + 
+      4*ky*U[0]*(B*x*(-2*Cp[2] + I*Cp[3])*U[0] + ((4*I)*Cp[1] + Cp[4])*
+         Derivative[1][U][0]) + 8*Cp[2]*U[0]*Derivative[2][U][0] - 
+      (8*I)*Cp[3]*U[0]*Derivative[2][U][0]) - 8*Sqrt[2]*Bc^(3/2)*
+     E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+         \[Lambda]^2))*Pi^(3/2)*Abs[\[Lambda]]^3*(8*kx^3*Cp[6]*U[0] + 
+      (4*I)*kx^2*(2*ky*Cp[6]*U[0] - B*x*Cp[6]*U[0] + (I*Cp[5] + 3*Cp[8])*
+         Derivative[1][U][0]) + 2*kx*(4*ky^2*Cp[6]*U[0] + 
+        B^2*x^2*Cp[6]*U[0] - 4*\[Omega]^2*Cp[6]*U[0] - (4*I)*\[Omega]*Cp[8]*
+         Derivative[1][U][0] + 2*B*x*((-I)*Cp[5] + Cp[8])*
+         Derivative[1][U][0] - 4*ky*(B*x*Cp[6]*U[0] + ((-I)*Cp[5] + Cp[8])*
+           Derivative[1][U][0]) + 4*Cp[6]*Derivative[2][U][0] - 
+        (2*I)*Cp[7]*Derivative[2][U][0]) + 
+      I*(8*ky^3*Cp[6]*U[0] - B^3*x^3*Cp[6]*U[0] - (4*I)*\[Omega]^2*Cp[5]*
+         Derivative[1][U][0] - 4*\[Omega]^2*Cp[8]*Derivative[1][U][0] + 
+        B^2*x^2*((3*I)*Cp[5] + Cp[8])*Derivative[1][U][0] + 
+        4*ky^2*(-3*B*x*Cp[6]*U[0] + ((3*I)*Cp[5] + Cp[8])*Derivative[1][U][
+            0]) - (4*I)*\[Omega]*Cp[6]*Derivative[2][U][0] + 
+        4*\[Omega]*Cp[7]*Derivative[2][U][0] + 
+        2*ky*(3*B^2*x^2*Cp[6]*U[0] - 4*\[Omega]^2*Cp[6]*U[0] + 
+          2*B*x*((-3*I)*Cp[5] - Cp[8])*Derivative[1][U][0] - 
+          (4*I)*\[Omega]*Cp[8]*Derivative[1][U][0] + 2*(2*Cp[6] - I*Cp[7])*
+           Derivative[2][U][0]) + 2*B*x*(2*\[Omega]^2*Cp[6]*U[0] + 
+          (2*I)*\[Omega]*Cp[8]*Derivative[1][U][0] + (-2*Cp[6] + I*Cp[7])*
+           Derivative[2][U][0]) + (2*I)*Cp[5]*Derivative[3][U][0] + 
+        2*Cp[8]*Derivative[3][U][0])))/(384*Bc^2*Abs[\[Lambda]]^4), 
+  (Bc^2*(96 + 16*kx^4 + 16*ky^4 - 48*L*m - 32*B*ky^3*x + B^4*x^4 - 
+      8*B^2*x^2*\[Omega]^2 + 16*\[Omega]^4 + 
+      8*kx^2*(4*ky^2 - 4*B*ky*x + B^2*x^2 - 4*\[Omega]^2) + 
+      8*ky^2*(3*B^2*x^2 - 4*\[Omega]^2) - 8*ky*(B^3*x^3 - 4*B*x*\[Omega]^2))*
+     Abs[\[Lambda]]^4*Cp[3] + 
+    512*E^((2*I)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+         \[Lambda]^2))*Pi^6*(I*Cp[2] + Cp[3])*U[0]^4 + 
+    128*Sqrt[2]*Sqrt[Bc]*E^(((3*I)/2)*((kx*(I*kx + 2*ky))/Bc + 
+        (ky*(ky*Pi + 2*K*\[Lambda]))/\[Lambda]^2))*Pi^(9/2)*Abs[\[Lambda]]*
+     U[0]^2*(2*kx*Cp[7]*U[0] - I*(-2*ky*Cp[7]*U[0] + B*x*Cp[7]*U[0] + 
+        6*Cp[5]*Derivative[1][U][0] - (6*I)*Cp[8]*Derivative[1][U][0])) + 
+    32*Bc*E^(I*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+         \[Lambda]^2))*Pi^3*Abs[\[Lambda]]^2*((-I)*B^2*x^2*Cp[2]*U[0]^2 + 
+      (4*I)*\[Omega]^2*Cp[2]*U[0]^2 - (4*I)*kx^2*(Cp[2] - (2*I)*Cp[3])*
+       U[0]^2 - (4*I)*ky^2*(Cp[2] - (2*I)*Cp[3])*U[0]^2 - 
+      2*B^2*x^2*Cp[3]*U[0]^2 + 4*\[Omega]^2*Cp[3]*U[0]^2 - 
+      2*B*x*Cp[1]*U[0]*Derivative[1][U][0] + (8*I)*\[Omega]*Cp[1]*U[0]*
+       Derivative[1][U][0] + (8*I)*B*x*Cp[4]*U[0]*Derivative[1][U][0] - 
+      8*\[Omega]*Cp[4]*U[0]*Derivative[1][U][0] + 4*kx*((4*I)*Cp[1] + Cp[4])*
+       U[0]*Derivative[1][U][0] - (6*I)*Cp[2]*Derivative[1][U][0]^2 - 
+      6*Cp[3]*Derivative[1][U][0]^2 + 4*ky*U[0]*
+       (B*x*(I*Cp[2] + 2*Cp[3])*U[0] + (Cp[1] - (4*I)*Cp[4])*
+         Derivative[1][U][0]) - (8*I)*Cp[2]*U[0]*Derivative[2][U][0] - 
+      8*Cp[3]*U[0]*Derivative[2][U][0]) + (8*I)*Sqrt[2]*Bc^(3/2)*
+     E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+         \[Lambda]^2))*Pi^(3/2)*Abs[\[Lambda]]^3*((8*I)*kx^3*Cp[7]*U[0] - 
+      8*ky^3*Cp[7]*U[0] + B^3*x^3*Cp[7]*U[0] - 4*B*x*\[Omega]^2*Cp[7]*U[0] + 
+      B^2*x^2*Cp[5]*Derivative[1][U][0] - (4*I)*B*x*\[Omega]*Cp[5]*
+       Derivative[1][U][0] - 4*\[Omega]^2*Cp[5]*Derivative[1][U][0] - 
+      (3*I)*B^2*x^2*Cp[8]*Derivative[1][U][0] + (4*I)*\[Omega]^2*Cp[8]*
+       Derivative[1][U][0] + 4*kx^2*(-2*ky*Cp[7]*U[0] + B*x*Cp[7]*U[0] + 
+        (3*Cp[5] - I*Cp[8])*Derivative[1][U][0]) + 
+      4*ky^2*(3*B*x*Cp[7]*U[0] + (Cp[5] - (3*I)*Cp[8])*Derivative[1][U][0]) + 
+      (2*I)*B*x*Cp[6]*Derivative[2][U][0] - 4*\[Omega]*Cp[6]*
+       Derivative[2][U][0] + 4*B*x*Cp[7]*Derivative[2][U][0] - 
+      (4*I)*\[Omega]*Cp[7]*Derivative[2][U][0] + 
+      (2*I)*kx*(4*ky^2*Cp[7]*U[0] + B^2*x^2*Cp[7]*U[0] - 
+        4*\[Omega]^2*Cp[7]*U[0] - (4*I)*\[Omega]*Cp[5]*Derivative[1][U][0] - 
+        2*B*x*(Cp[5] + I*Cp[8])*Derivative[1][U][0] + 
+        ky*(-4*B*x*Cp[7]*U[0] + 4*(Cp[5] + I*Cp[8])*Derivative[1][U][0]) + 
+        (2*I)*Cp[6]*Derivative[2][U][0] + 4*Cp[7]*Derivative[2][U][0]) - 
+      2*ky*(3*B^2*x^2*Cp[7]*U[0] - 4*\[Omega]^2*Cp[7]*U[0] - 
+        (4*I)*\[Omega]*Cp[5]*Derivative[1][U][0] + 
+        2*B*x*(Cp[5] - (3*I)*Cp[8])*Derivative[1][U][0] + 
+        2*(I*Cp[6] + 2*Cp[7])*Derivative[2][U][0]) + 
+      2*Cp[5]*Derivative[3][U][0] - (2*I)*Cp[8]*Derivative[3][U][0]))/
+   (384*Bc^2*Abs[\[Lambda]]^4), 
+  (Bc^2*(96 + 16*kx^4 + 16*ky^4 + 48*L*m - 32*B*ky^3*x + B^4*x^4 - 
+      8*B^2*x^2*\[Omega]^2 + 16*\[Omega]^4 + 
+      8*kx^2*(4*ky^2 - 4*B*ky*x + B^2*x^2 - 4*\[Omega]^2) + 
+      8*ky^2*(3*B^2*x^2 - 4*\[Omega]^2) - 8*ky*(B^3*x^3 - 4*B*x*\[Omega]^2))*
+     Abs[\[Lambda]]^4*Cp[4] + 
+    512*E^((2*I)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+         \[Lambda]^2))*Pi^6*((-I)*Cp[1] + Cp[4])*U[0]^4 + 
+    128*Sqrt[2]*Sqrt[Bc]*E^(((3*I)/2)*((kx*(I*kx + 2*ky))/Bc + 
+        (ky*(ky*Pi + 2*K*\[Lambda]))/\[Lambda]^2))*Pi^(9/2)*Abs[\[Lambda]]*
+     U[0]^2*(2*kx*Cp[8]*U[0] - I*(-2*ky*Cp[8]*U[0] + B*x*Cp[8]*U[0] + 
+        6*Cp[6]*Derivative[1][U][0] + (6*I)*Cp[7]*Derivative[1][U][0])) + 
+    32*Bc*E^(I*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+         \[Lambda]^2))*Pi^3*Abs[\[Lambda]]^2*(I*B^2*x^2*Cp[1]*U[0]^2 - 
+      (4*I)*\[Omega]^2*Cp[1]*U[0]^2 + (4*I)*kx^2*(Cp[1] + (2*I)*Cp[4])*
+       U[0]^2 + (4*I)*ky^2*(Cp[1] + (2*I)*Cp[4])*U[0]^2 - 
+      2*B^2*x^2*Cp[4]*U[0]^2 + 4*\[Omega]^2*Cp[4]*U[0]^2 - 
+      2*B*x*Cp[2]*U[0]*Derivative[1][U][0] + (8*I)*\[Omega]*Cp[2]*U[0]*
+       Derivative[1][U][0] + 4*kx*((4*I)*Cp[2] - Cp[3])*U[0]*
+       Derivative[1][U][0] - (8*I)*B*x*Cp[3]*U[0]*Derivative[1][U][0] + 
+      8*\[Omega]*Cp[3]*U[0]*Derivative[1][U][0] + 
+      (6*I)*Cp[1]*Derivative[1][U][0]^2 - 6*Cp[4]*Derivative[1][U][0]^2 + 
+      4*ky*U[0]*(B*x*((-I)*Cp[1] + 2*Cp[4])*U[0] + (Cp[2] + (4*I)*Cp[3])*
+         Derivative[1][U][0]) + (8*I)*Cp[1]*U[0]*Derivative[2][U][0] - 
+      8*Cp[4]*U[0]*Derivative[2][U][0]) + (8*I)*Sqrt[2]*Bc^(3/2)*
+     E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+         \[Lambda]^2))*Pi^(3/2)*Abs[\[Lambda]]^3*((8*I)*kx^3*Cp[8]*U[0] - 
+      8*ky^3*Cp[8]*U[0] + B^3*x^3*Cp[8]*U[0] - 4*B*x*\[Omega]^2*Cp[8]*U[0] + 
+      B^2*x^2*Cp[6]*Derivative[1][U][0] - (4*I)*B*x*\[Omega]*Cp[6]*
+       Derivative[1][U][0] - 4*\[Omega]^2*Cp[6]*Derivative[1][U][0] + 
+      (3*I)*B^2*x^2*Cp[7]*Derivative[1][U][0] - (4*I)*\[Omega]^2*Cp[7]*
+       Derivative[1][U][0] + 4*kx^2*(-2*ky*Cp[8]*U[0] + B*x*Cp[8]*U[0] + 
+        (3*Cp[6] + I*Cp[7])*Derivative[1][U][0]) + 
+      4*ky^2*(3*B*x*Cp[8]*U[0] + (Cp[6] + (3*I)*Cp[7])*Derivative[1][U][0]) - 
+      (2*I)*B*x*Cp[5]*Derivative[2][U][0] + 4*\[Omega]*Cp[5]*
+       Derivative[2][U][0] + 4*B*x*Cp[8]*Derivative[2][U][0] - 
+      (4*I)*\[Omega]*Cp[8]*Derivative[2][U][0] + 
+      (2*I)*kx*(4*ky^2*Cp[8]*U[0] + B^2*x^2*Cp[8]*U[0] - 
+        4*\[Omega]^2*Cp[8]*U[0] - (4*I)*\[Omega]*Cp[6]*Derivative[1][U][0] - 
+        2*B*x*(Cp[6] - I*Cp[7])*Derivative[1][U][0] - 
+        4*ky*(B*x*Cp[8]*U[0] - (Cp[6] - I*Cp[7])*Derivative[1][U][0]) - 
+        (2*I)*Cp[5]*Derivative[2][U][0] + 4*Cp[8]*Derivative[2][U][0]) - 
+      2*ky*(3*B^2*x^2*Cp[8]*U[0] - 4*\[Omega]^2*Cp[8]*U[0] - 
+        (4*I)*\[Omega]*Cp[6]*Derivative[1][U][0] + 
+        2*B*x*(Cp[6] + (3*I)*Cp[7])*Derivative[1][U][0] + 
+        2*((-I)*Cp[5] + 2*Cp[8])*Derivative[2][U][0]) + 
+      2*Cp[6]*Derivative[3][U][0] + (2*I)*Cp[7]*Derivative[3][U][0]))/
+   (384*Bc^2*Abs[\[Lambda]]^4), 
+  (Bc^2*(96 + 16*kx^4 + 16*ky^4 + 48*L*m - 32*B*ky^3*x + B^4*x^4 - 
+      8*B^2*x^2*\[Omega]^2 + 16*\[Omega]^4 + 
+      8*kx^2*(4*ky^2 - 4*B*ky*x + B^2*x^2 - 4*\[Omega]^2) + 
+      8*ky^2*(3*B^2*x^2 - 4*\[Omega]^2) - 8*ky*(B^3*x^3 - 4*B*x*\[Omega]^2))*
+     Abs[\[Lambda]]^4*Cp[5] + 
+    512*E^((2*I)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+         \[Lambda]^2))*Pi^6*(Cp[5] - I*Cp[8])*U[0]^4 - 
+    128*Sqrt[2]*Sqrt[Bc]*E^(((3*I)/2)*((kx*(I*kx + 2*ky))/Bc + 
+        (ky*(ky*Pi + 2*K*\[Lambda]))/\[Lambda]^2))*Pi^(9/2)*Abs[\[Lambda]]*
+     U[0]^2*(2*kx*Cp[1]*U[0] + I*(-2*ky*Cp[1]*U[0] + B*x*Cp[1]*U[0] + 
+        6*(I*Cp[2] + Cp[3])*Derivative[1][U][0])) - 
+    32*Bc*E^(I*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+         \[Lambda]^2))*Pi^3*Abs[\[Lambda]]^2*(2*B^2*x^2*Cp[5]*U[0]^2 - 
+      4*\[Omega]^2*Cp[5]*U[0]^2 + 4*kx^2*(2*Cp[5] - I*Cp[8])*U[0]^2 + 
+      4*ky^2*(2*Cp[5] - I*Cp[8])*U[0]^2 - I*B^2*x^2*Cp[8]*U[0]^2 + 
+      (4*I)*\[Omega]^2*Cp[8]*U[0]^2 + (8*I)*B*x*Cp[6]*U[0]*
+       Derivative[1][U][0] - 8*\[Omega]*Cp[6]*U[0]*Derivative[1][U][0] - 
+      4*kx*(Cp[6] - (4*I)*Cp[7])*U[0]*Derivative[1][U][0] + 
+      2*B*x*Cp[7]*U[0]*Derivative[1][U][0] - (8*I)*\[Omega]*Cp[7]*U[0]*
+       Derivative[1][U][0] + 6*Cp[5]*Derivative[1][U][0]^2 - 
+      (6*I)*Cp[8]*Derivative[1][U][0]^2 - 
+      4*ky*U[0]*(B*x*(2*Cp[5] - I*Cp[8])*U[0] + ((4*I)*Cp[6] + Cp[7])*
+         Derivative[1][U][0]) + 8*Cp[5]*U[0]*Derivative[2][U][0] - 
+      (8*I)*Cp[8]*U[0]*Derivative[2][U][0]) + (8*I)*Sqrt[2]*Bc^(3/2)*
+     E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+         \[Lambda]^2))*Pi^(3/2)*Abs[\[Lambda]]^3*((-8*I)*kx^3*Cp[1]*U[0] - 
+      8*ky^3*Cp[1]*U[0] + B^3*x^3*Cp[1]*U[0] - 4*B*x*\[Omega]^2*Cp[1]*U[0] + 
+      (3*I)*B^2*x^2*Cp[2]*Derivative[1][U][0] - (4*I)*\[Omega]^2*Cp[2]*
+       Derivative[1][U][0] + B^2*x^2*Cp[3]*Derivative[1][U][0] - 
+      (4*I)*B*x*\[Omega]*Cp[3]*Derivative[1][U][0] - 
+      4*\[Omega]^2*Cp[3]*Derivative[1][U][0] + 
+      4*ky^2*(3*B*x*Cp[1]*U[0] + ((3*I)*Cp[2] + Cp[3])*Derivative[1][U][0]) + 
+      4*kx^2*(-2*ky*Cp[1]*U[0] + B*x*Cp[1]*U[0] + (I*Cp[2] + 3*Cp[3])*
+         Derivative[1][U][0]) + 4*B*x*Cp[1]*Derivative[2][U][0] - 
+      (4*I)*\[Omega]*Cp[1]*Derivative[2][U][0] - (2*I)*B*x*Cp[4]*
+       Derivative[2][U][0] + 4*\[Omega]*Cp[4]*Derivative[2][U][0] - 
+      2*ky*(3*B^2*x^2*Cp[1]*U[0] - 4*\[Omega]^2*Cp[1]*U[0] - 
+        (4*I)*\[Omega]*Cp[3]*Derivative[1][U][0] + 
+        2*B*x*((3*I)*Cp[2] + Cp[3])*Derivative[1][U][0] + 
+        2*(2*Cp[1] - I*Cp[4])*Derivative[2][U][0]) - 
+      (2*I)*kx*(4*ky^2*Cp[1]*U[0] + B^2*x^2*Cp[1]*U[0] - 
+        4*\[Omega]^2*Cp[1]*U[0] + (2*I)*B*x*(Cp[2] + I*Cp[3])*
+         Derivative[1][U][0] - (4*I)*\[Omega]*Cp[3]*Derivative[1][U][0] - 
+        4*ky*(B*x*Cp[1]*U[0] + I*(Cp[2] + I*Cp[3])*Derivative[1][U][0]) + 
+        4*Cp[1]*Derivative[2][U][0] - (2*I)*Cp[4]*Derivative[2][U][0]) + 
+      (2*I)*Cp[2]*Derivative[3][U][0] + 2*Cp[3]*Derivative[3][U][0]))/
+   (384*Bc^2*Abs[\[Lambda]]^4), 
+  (Bc^2*(96 + 16*kx^4 + 16*ky^4 - 48*L*m - 32*B*ky^3*x + B^4*x^4 - 
+      8*B^2*x^2*\[Omega]^2 + 16*\[Omega]^4 + 
+      8*kx^2*(4*ky^2 - 4*B*ky*x + B^2*x^2 - 4*\[Omega]^2) + 
+      8*ky^2*(3*B^2*x^2 - 4*\[Omega]^2) - 8*ky*(B^3*x^3 - 4*B*x*\[Omega]^2))*
+     Abs[\[Lambda]]^4*Cp[6] + 
+    512*E^((2*I)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+         \[Lambda]^2))*Pi^6*(Cp[6] + I*Cp[7])*U[0]^4 - 
+    128*Sqrt[2]*Sqrt[Bc]*E^(((3*I)/2)*((kx*(I*kx + 2*ky))/Bc + 
+        (ky*(ky*Pi + 2*K*\[Lambda]))/\[Lambda]^2))*Pi^(9/2)*Abs[\[Lambda]]*
+     U[0]^2*(2*kx*Cp[2]*U[0] - (2*I)*ky*Cp[2]*U[0] + I*B*x*Cp[2]*U[0] + 
+      6*Cp[1]*Derivative[1][U][0] + (6*I)*Cp[4]*Derivative[1][U][0]) - 
+    32*Bc*E^(I*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+         \[Lambda]^2))*Pi^3*Abs[\[Lambda]]^2*(2*B^2*x^2*Cp[6]*U[0]^2 - 
+      4*\[Omega]^2*Cp[6]*U[0]^2 + 4*kx^2*(2*Cp[6] + I*Cp[7])*U[0]^2 + 
+      4*ky^2*(2*Cp[6] + I*Cp[7])*U[0]^2 + I*B^2*x^2*Cp[7]*U[0]^2 - 
+      (4*I)*\[Omega]^2*Cp[7]*U[0]^2 - (8*I)*B*x*Cp[5]*U[0]*
+       Derivative[1][U][0] + 8*\[Omega]*Cp[5]*U[0]*Derivative[1][U][0] + 
+      4*kx*(Cp[5] + (4*I)*Cp[8])*U[0]*Derivative[1][U][0] + 
+      2*B*x*Cp[8]*U[0]*Derivative[1][U][0] - (8*I)*\[Omega]*Cp[8]*U[0]*
+       Derivative[1][U][0] + 6*Cp[6]*Derivative[1][U][0]^2 + 
+      (6*I)*Cp[7]*Derivative[1][U][0]^2 - 
+      4*ky*U[0]*(B*x*(2*Cp[6] + I*Cp[7])*U[0] + ((-4*I)*Cp[5] + Cp[8])*
+         Derivative[1][U][0]) + 8*Cp[6]*U[0]*Derivative[2][U][0] + 
+      (8*I)*Cp[7]*U[0]*Derivative[2][U][0]) + 8*Sqrt[2]*Bc^(3/2)*
+     E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+         \[Lambda]^2))*Pi^(3/2)*Abs[\[Lambda]]^3*(8*kx^3*Cp[2]*U[0] + 
+      4*kx^2*((-2*I)*ky*Cp[2]*U[0] + I*B*x*Cp[2]*U[0] + 
+        (Cp[1] + (3*I)*Cp[4])*Derivative[1][U][0]) + 
+      2*kx*(4*ky^2*Cp[2]*U[0] + B^2*x^2*Cp[2]*U[0] - 4*\[Omega]^2*Cp[2]*
+         U[0] - (2*I)*B*x*(Cp[1] - I*Cp[4])*Derivative[1][U][0] - 
+        (4*I)*\[Omega]*Cp[4]*Derivative[1][U][0] + 
+        ky*(-4*B*x*Cp[2]*U[0] + 4*(I*Cp[1] + Cp[4])*Derivative[1][U][0]) + 
+        4*Cp[2]*Derivative[2][U][0] + (2*I)*Cp[3]*Derivative[2][U][0]) + 
+      I*(-8*ky^3*Cp[2]*U[0] + B^3*x^3*Cp[2]*U[0] + (4*I)*\[Omega]^2*Cp[1]*
+         Derivative[1][U][0] - 4*\[Omega]^2*Cp[4]*Derivative[1][U][0] + 
+        B^2*x^2*((-3*I)*Cp[1] + Cp[4])*Derivative[1][U][0] + 
+        4*ky^2*(3*B*x*Cp[2]*U[0] + ((-3*I)*Cp[1] + Cp[4])*Derivative[1][U][
+            0]) - (4*I)*\[Omega]*Cp[2]*Derivative[2][U][0] - 
+        4*\[Omega]*Cp[3]*Derivative[2][U][0] + 
+        2*B*x*(-2*\[Omega]^2*Cp[2]*U[0] - (2*I)*\[Omega]*Cp[4]*
+           Derivative[1][U][0] + (2*Cp[2] + I*Cp[3])*Derivative[2][U][0]) - 
+        2*ky*(3*B^2*x^2*Cp[2]*U[0] - 4*\[Omega]^2*Cp[2]*U[0] - 
+          (4*I)*\[Omega]*Cp[4]*Derivative[1][U][0] + 
+          2*B*x*((-3*I)*Cp[1] + Cp[4])*Derivative[1][U][0] + 
+          2*(2*Cp[2] + I*Cp[3])*Derivative[2][U][0]) - 
+        (2*I)*Cp[1]*Derivative[3][U][0] + 2*Cp[4]*Derivative[3][U][0])))/
+   (384*Bc^2*Abs[\[Lambda]]^4), 
+  (Bc^2*(96 + 16*kx^4 + 16*ky^4 - 48*L*m - 32*B*ky^3*x + B^4*x^4 - 
+      8*B^2*x^2*\[Omega]^2 + 16*\[Omega]^4 + 
+      8*kx^2*(4*ky^2 - 4*B*ky*x + B^2*x^2 - 4*\[Omega]^2) + 
+      8*ky^2*(3*B^2*x^2 - 4*\[Omega]^2) - 8*ky*(B^3*x^3 - 4*B*x*\[Omega]^2))*
+     Abs[\[Lambda]]^4*Cp[7] + 
+    512*E^((2*I)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+         \[Lambda]^2))*Pi^6*((-I)*Cp[6] + Cp[7])*U[0]^4 - 
+    128*Sqrt[2]*Sqrt[Bc]*E^(((3*I)/2)*((kx*(I*kx + 2*ky))/Bc + 
+        (ky*(ky*Pi + 2*K*\[Lambda]))/\[Lambda]^2))*Pi^(9/2)*Abs[\[Lambda]]*
+     U[0]^2*(2*kx*Cp[3]*U[0] - (2*I)*ky*Cp[3]*U[0] + I*B*x*Cp[3]*U[0] - 
+      (6*I)*Cp[1]*Derivative[1][U][0] + 6*Cp[4]*Derivative[1][U][0]) + 
+    32*Bc*E^(I*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+         \[Lambda]^2))*Pi^3*Abs[\[Lambda]]^2*(I*B^2*x^2*Cp[6]*U[0]^2 - 
+      (4*I)*\[Omega]^2*Cp[6]*U[0]^2 + (4*I)*kx^2*(Cp[6] + (2*I)*Cp[7])*
+       U[0]^2 + (4*I)*ky^2*(Cp[6] + (2*I)*Cp[7])*U[0]^2 - 
+      2*B^2*x^2*Cp[7]*U[0]^2 + 4*\[Omega]^2*Cp[7]*U[0]^2 + 
+      2*B*x*Cp[5]*U[0]*Derivative[1][U][0] + (8*I)*\[Omega]*Cp[5]*U[0]*
+       Derivative[1][U][0] + 4*kx*((4*I)*Cp[5] - Cp[8])*U[0]*
+       Derivative[1][U][0] + (8*I)*B*x*Cp[8]*U[0]*Derivative[1][U][0] + 
+      8*\[Omega]*Cp[8]*U[0]*Derivative[1][U][0] + 
+      (6*I)*Cp[6]*Derivative[1][U][0]^2 - 6*Cp[7]*Derivative[1][U][0]^2 + 
+      4*ky*U[0]*(B*x*((-I)*Cp[6] + 2*Cp[7])*U[0] - (Cp[5] + (4*I)*Cp[8])*
+         Derivative[1][U][0]) + (8*I)*Cp[6]*U[0]*Derivative[2][U][0] - 
+      8*Cp[7]*U[0]*Derivative[2][U][0]) + 8*Sqrt[2]*Bc^(3/2)*
+     E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+         \[Lambda]^2))*Pi^(3/2)*Abs[\[Lambda]]^3*(8*kx^3*Cp[3]*U[0] + 
+      4*kx^2*((-2*I)*ky*Cp[3]*U[0] + I*B*x*Cp[3]*U[0] + 
+        ((-3*I)*Cp[1] + Cp[4])*Derivative[1][U][0]) + 
+      2*kx*(4*ky^2*Cp[3]*U[0] + B^2*x^2*Cp[3]*U[0] - 4*\[Omega]^2*Cp[3]*
+         U[0] - (4*I)*\[Omega]*Cp[1]*Derivative[1][U][0] + 
+        2*B*x*(Cp[1] - I*Cp[4])*Derivative[1][U][0] - 
+        4*ky*(B*x*Cp[3]*U[0] + (Cp[1] - I*Cp[4])*Derivative[1][U][0]) - 
+        (2*I)*Cp[2]*Derivative[2][U][0] + 4*Cp[3]*Derivative[2][U][0]) - 
+      I*(8*ky^3*Cp[3]*U[0] - B^3*x^3*Cp[3]*U[0] - 4*\[Omega]^2*Cp[1]*
+         Derivative[1][U][0] + B^2*x^2*(Cp[1] + (3*I)*Cp[4])*
+         Derivative[1][U][0] - (4*I)*\[Omega]^2*Cp[4]*Derivative[1][U][0] + 
+        4*ky^2*(-3*B*x*Cp[3]*U[0] + (Cp[1] + (3*I)*Cp[4])*Derivative[1][U][
+            0]) + 4*\[Omega]*Cp[2]*Derivative[2][U][0] - 
+        (4*I)*\[Omega]*Cp[3]*Derivative[2][U][0] + 
+        2*B*x*(2*\[Omega]^2*Cp[3]*U[0] + (2*I)*\[Omega]*Cp[1]*
+           Derivative[1][U][0] + I*(Cp[2] + (2*I)*Cp[3])*Derivative[2][U][
+            0]) + 2*ky*(3*B^2*x^2*Cp[3]*U[0] - 4*\[Omega]^2*Cp[3]*U[0] - 
+          (4*I)*\[Omega]*Cp[1]*Derivative[1][U][0] - 
+          2*B*x*(Cp[1] + (3*I)*Cp[4])*Derivative[1][U][0] + 
+          2*((-I)*Cp[2] + 2*Cp[3])*Derivative[2][U][0]) + 
+        2*Cp[1]*Derivative[3][U][0] + (2*I)*Cp[4]*Derivative[3][U][0])))/
+   (384*Bc^2*Abs[\[Lambda]]^4), 
+  (Bc^2*(96 + 16*kx^4 + 16*ky^4 + 48*L*m - 32*B*ky^3*x + B^4*x^4 - 
+      8*B^2*x^2*\[Omega]^2 + 16*\[Omega]^4 + 
+      8*kx^2*(4*ky^2 - 4*B*ky*x + B^2*x^2 - 4*\[Omega]^2) + 
+      8*ky^2*(3*B^2*x^2 - 4*\[Omega]^2) - 8*ky*(B^3*x^3 - 4*B*x*\[Omega]^2))*
+     Abs[\[Lambda]]^4*Cp[8] + 
+    512*E^((2*I)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+         \[Lambda]^2))*Pi^6*(I*Cp[5] + Cp[8])*U[0]^4 - 
+    128*Sqrt[2]*Sqrt[Bc]*E^(((3*I)/2)*((kx*(I*kx + 2*ky))/Bc + 
+        (ky*(ky*Pi + 2*K*\[Lambda]))/\[Lambda]^2))*Pi^(9/2)*Abs[\[Lambda]]*
+     U[0]^2*(2*kx*Cp[4]*U[0] + I*(-2*ky*Cp[4]*U[0] + B*x*Cp[4]*U[0] - 
+        6*(Cp[2] - I*Cp[3])*Derivative[1][U][0])) + 
+    32*Bc*E^(I*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+         \[Lambda]^2))*Pi^3*Abs[\[Lambda]]^2*((-I)*B^2*x^2*Cp[5]*U[0]^2 + 
+      (4*I)*\[Omega]^2*Cp[5]*U[0]^2 - (4*I)*kx^2*(Cp[5] - (2*I)*Cp[8])*
+       U[0]^2 - (4*I)*ky^2*(Cp[5] - (2*I)*Cp[8])*U[0]^2 - 
+      2*B^2*x^2*Cp[8]*U[0]^2 + 4*\[Omega]^2*Cp[8]*U[0]^2 + 
+      2*B*x*Cp[6]*U[0]*Derivative[1][U][0] + (8*I)*\[Omega]*Cp[6]*U[0]*
+       Derivative[1][U][0] - (8*I)*B*x*Cp[7]*U[0]*Derivative[1][U][0] - 
+      8*\[Omega]*Cp[7]*U[0]*Derivative[1][U][0] + 4*kx*((4*I)*Cp[6] + Cp[7])*
+       U[0]*Derivative[1][U][0] - (6*I)*Cp[5]*Derivative[1][U][0]^2 - 
+      6*Cp[8]*Derivative[1][U][0]^2 + 4*ky*U[0]*
+       (B*x*(I*Cp[5] + 2*Cp[8])*U[0] - (Cp[6] - (4*I)*Cp[7])*
+         Derivative[1][U][0]) - (8*I)*Cp[5]*U[0]*Derivative[2][U][0] - 
+      8*Cp[8]*U[0]*Derivative[2][U][0]) + (8*I)*Sqrt[2]*Bc^(3/2)*
+     E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+         \[Lambda]^2))*Pi^(3/2)*Abs[\[Lambda]]^3*((-8*I)*kx^3*Cp[4]*U[0] - 
+      8*ky^3*Cp[4]*U[0] + B^3*x^3*Cp[4]*U[0] - 4*B*x*\[Omega]^2*Cp[4]*U[0] - 
+      B^2*x^2*Cp[2]*Derivative[1][U][0] - (4*I)*B*x*\[Omega]*Cp[2]*
+       Derivative[1][U][0] + 4*\[Omega]^2*Cp[2]*Derivative[1][U][0] + 
+      (3*I)*B^2*x^2*Cp[3]*Derivative[1][U][0] - (4*I)*\[Omega]^2*Cp[3]*
+       Derivative[1][U][0] + 4*kx^2*(-2*ky*Cp[4]*U[0] + B*x*Cp[4]*U[0] + 
+        (-3*Cp[2] + I*Cp[3])*Derivative[1][U][0]) + 
+      4*ky^2*(3*B*x*Cp[4]*U[0] - (Cp[2] - (3*I)*Cp[3])*Derivative[1][U][0]) + 
+      (2*I)*B*x*Cp[1]*Derivative[2][U][0] + 4*\[Omega]*Cp[1]*
+       Derivative[2][U][0] + 4*B*x*Cp[4]*Derivative[2][U][0] + 
+      (4*I)*\[Omega]*Cp[4]*Derivative[2][U][0] - 
+      (2*I)*kx*(4*ky^2*Cp[4]*U[0] + B^2*x^2*Cp[4]*U[0] - 
+        4*\[Omega]^2*Cp[4]*U[0] - (4*I)*\[Omega]*Cp[2]*Derivative[1][U][0] + 
+        2*B*x*(Cp[2] + I*Cp[3])*Derivative[1][U][0] - 
+        4*ky*(B*x*Cp[4]*U[0] + (Cp[2] + I*Cp[3])*Derivative[1][U][0]) + 
+        (2*I)*Cp[1]*Derivative[2][U][0] + 4*Cp[4]*Derivative[2][U][0]) - 
+      2*ky*(3*B^2*x^2*Cp[4]*U[0] - 4*\[Omega]^2*Cp[4]*U[0] - 
+        (4*I)*\[Omega]*Cp[2]*Derivative[1][U][0] - 
+        2*B*x*(Cp[2] - (3*I)*Cp[3])*Derivative[1][U][0] + 
+        2*(I*Cp[1] + 2*Cp[4])*Derivative[2][U][0]) - 
+      2*Cp[2]*Derivative[3][U][0] + (2*I)*Cp[3]*Derivative[3][U][0]))/
+   (384*Bc^2*Abs[\[Lambda]]^4)}}
