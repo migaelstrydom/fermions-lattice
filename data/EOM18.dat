@@ -1,74 +1,78 @@
 {-(((-2 + u^4 - L*m*Sqrt[1 - u^4])*\[Psi][1][u])/(u*(-1 + u^4))) + 
   ((I/2)*(2*ky - B*x)*\[Psi][2][u])/Sqrt[1 - u^4] + 
-  (I*(kx*(-1 + u^4) + Sqrt[1 - u^4]*\[Omega])*\[Psi][3][u])/(1 - u^4)^(3/2) + 
+  (I*(kx*Sqrt[1 - u^4] - \[Omega])*\[Psi][3][u])/(-1 + u^4) + 
   (Sqrt[2]*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
-        \[Lambda]^2))*Pi^(3/2)*\[Psi][6][u])/(Sqrt[Bc - Bc*u^4]*
-    Abs[\[Lambda]]) + 
+        \[Lambda]^2))*Pi^(3/2)*U[u]*\[Psi][6][u])/
+   (Sqrt[Bc - Bc*u^4]*Abs[\[Lambda]]) + 
   (I*Sqrt[2]*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
-        \[Lambda]^2))*Pi^(3/2)*\[Psi][7][u])/(Sqrt[Bc - Bc*u^4]*
-    Abs[\[Lambda]]) + Derivative[1][\[Psi][1]][u], 
+        \[Lambda]^2))*Pi^(3/2)*U[u]*\[Psi][7][u])/
+   (Sqrt[Bc - Bc*u^4]*Abs[\[Lambda]]) + Derivative[1][\[Psi][1]][u], 
  ((-I/2)*(2*ky - B*x)*\[Psi][1][u])/Sqrt[1 - u^4] - 
   ((-2 + u^4 + L*m*Sqrt[1 - u^4])*\[Psi][2][u])/(u*(-1 + u^4)) + 
   (I*(kx*Sqrt[1 - u^4] - \[Omega])*\[Psi][4][u])/(-1 + u^4) + 
   (E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
-        \[Lambda]^2))*Pi^(3/2)*\[Psi][5][u])/(Sqrt[Bc/(2 - 2*u^4)]*(-1 + u^4)*
-    Abs[\[Lambda]]) + 
+        \[Lambda]^2))*Pi^(3/2)*U[u]*\[Psi][5][u])/
+   (Sqrt[Bc/(2 - 2*u^4)]*(-1 + u^4)*Abs[\[Lambda]]) + 
   (I*Sqrt[2]*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
-        \[Lambda]^2))*Pi^(3/2)*\[Psi][8][u])/(Sqrt[Bc - Bc*u^4]*
-    Abs[\[Lambda]]) + Derivative[1][\[Psi][2]][u], 
- ((-I)*(kx*Sqrt[1 - u^4] + \[Omega])*\[Psi][1][u])/(-1 + u^4) + 
-  ((Sqrt[1 - u^4]*(-2 + u^4) + L*(m - m*u^4))*\[Psi][3][u])/
-   (u*(1 - u^4)^(3/2)) - ((I/2)*(2*ky - B*x)*\[Psi][4][u])/Sqrt[1 - u^4] - 
-  (I*Sqrt[2]*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
-        \[Lambda]^2))*Pi^(3/2)*\[Psi][5][u])/(Sqrt[Bc - Bc*u^4]*
-    Abs[\[Lambda]]) - 
-  (Sqrt[2]*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
-        \[Lambda]^2))*Pi^(3/2)*\[Psi][8][u])/(Sqrt[Bc - Bc*u^4]*
-    Abs[\[Lambda]]) + Derivative[1][\[Psi][3]][u], 
+        \[Lambda]^2))*Pi^(3/2)*U[u]*\[Psi][8][u])/
+   (Sqrt[Bc - Bc*u^4]*Abs[\[Lambda]]) + Derivative[1][\[Psi][2]][u], 
+ ((-I)*(kx*Sqrt[1 - u^4] + \[Omega])*\[Psi][1][u])/(-1 + u^4) - 
+  ((-2 + u^4 + L*m*Sqrt[1 - u^4])*\[Psi][3][u])/(u*(-1 + u^4)) - 
+  ((I/2)*(2*ky - B*x)*\[Psi][4][u])/Sqrt[1 - u^4] + 
+  (I*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+        \[Lambda]^2))*Pi^(3/2)*U[u]*\[Psi][5][u])/
+   (Sqrt[Bc/(2 - 2*u^4)]*(-1 + u^4)*Abs[\[Lambda]]) + 
+  (E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+        \[Lambda]^2))*Pi^(3/2)*U[u]*\[Psi][8][u])/
+   (Sqrt[Bc/(2 - 2*u^4)]*(-1 + u^4)*Abs[\[Lambda]]) + 
+  Derivative[1][\[Psi][3]][u], 
  ((-I)*(kx*Sqrt[1 - u^4] + \[Omega])*\[Psi][2][u])/(-1 + u^4) + 
-  ((I/2)*(2*ky - B*x)*\[Psi][3][u])/Sqrt[1 - u^4] + 
-  ((Sqrt[1 - u^4]*(-2 + u^4) + L*m*(-1 + u^4))*\[Psi][4][u])/
-   (u*(1 - u^4)^(3/2)) - 
-  (I*Sqrt[2]*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
-        \[Lambda]^2))*Pi^(3/2)*\[Psi][6][u])/(Sqrt[Bc - Bc*u^4]*
-    Abs[\[Lambda]]) + 
+  ((I/2)*(2*ky - B*x)*\[Psi][3][u])/Sqrt[1 - u^4] - 
+  ((-2 + u^4 - L*m*Sqrt[1 - u^4])*\[Psi][4][u])/(u*(-1 + u^4)) + 
+  (I*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+        \[Lambda]^2))*Pi^(3/2)*U[u]*\[Psi][6][u])/
+   (Sqrt[Bc/(2 - 2*u^4)]*(-1 + u^4)*Abs[\[Lambda]]) + 
   (Sqrt[2]*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
-        \[Lambda]^2))*Pi^(3/2)*\[Psi][7][u])/(Sqrt[Bc - Bc*u^4]*
-    Abs[\[Lambda]]) + Derivative[1][\[Psi][4]][u], 
- (Sqrt[2]*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
-        \[Lambda]^2))*Pi^(3/2)*\[Psi][2][u])/(Sqrt[Bc - Bc*u^4]*
-    Abs[\[Lambda]]) - 
+        \[Lambda]^2))*Pi^(3/2)*U[u]*\[Psi][7][u])/
+   (Sqrt[Bc - Bc*u^4]*Abs[\[Lambda]]) + Derivative[1][\[Psi][4]][u], 
+ -((Sqrt[2]*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+         \[Lambda]^2))*Pi^(3/2)*U[u]*\[Psi][2][u])/
+    (Sqrt[Bc - Bc*u^4]*Abs[\[Lambda]])) + 
   (I*Sqrt[2]*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
-        \[Lambda]^2))*Pi^(3/2)*\[Psi][3][u])/(Sqrt[Bc - Bc*u^4]*
-    Abs[\[Lambda]]) - 
+        \[Lambda]^2))*Pi^(3/2)*U[u]*\[Psi][3][u])/
+   (Sqrt[Bc - Bc*u^4]*Abs[\[Lambda]]) - 
   ((Sqrt[Bc]*L*m*(-1 + u^4) + (-2 + u^4)*Sqrt[Bc - Bc*u^4])*\[Psi][5][u])/
-   (u*(-1 + u^4)*Sqrt[Bc - Bc*u^4]) + ((I/2)*(2*ky - B*x)*\[Psi][6][u])/
+   (u*(-1 + u^4)*Sqrt[Bc - Bc*u^4]) + ((I/2)*(2*ky + B*x)*\[Psi][6][u])/
    Sqrt[1 - u^4] + (I*(kx*(-1 + u^4) + Sqrt[1 - u^4]*\[Omega])*\[Psi][7][u])/
    (1 - u^4)^(3/2) + Derivative[1][\[Psi][5]][u], 
- -((Sqrt[2]*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
-         \[Lambda]^2))*Pi^(3/2)*\[Psi][1][u])/(Sqrt[Bc - Bc*u^4]*
-     Abs[\[Lambda]])) - 
+ (Sqrt[2]*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+        \[Lambda]^2))*Pi^(3/2)*U[u]*\[Psi][1][u])/
+   (Sqrt[Bc - Bc*u^4]*Abs[\[Lambda]]) + 
   (I*Sqrt[2]*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
-        \[Lambda]^2))*Pi^(3/2)*\[Psi][4][u])/(Sqrt[Bc - Bc*u^4]*
-    Abs[\[Lambda]]) - ((I/2)*(2*ky - B*x)*\[Psi][5][u])/Sqrt[1 - u^4] + 
-  ((Sqrt[1 - u^4]*(-2 + u^4) + L*(m - m*u^4))*\[Psi][6][u])/
-   (u*(1 - u^4)^(3/2)) + (I*(kx*(-1 + u^4) + Sqrt[1 - u^4]*\[Omega])*
-    \[Psi][8][u])/(1 - u^4)^(3/2) + Derivative[1][\[Psi][6]][u], 
- (I*Sqrt[2]*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
-        \[Lambda]^2))*Pi^(3/2)*\[Psi][1][u])/(Sqrt[Bc - Bc*u^4]*
-    Abs[\[Lambda]]) - 
+        \[Lambda]^2))*Pi^(3/2)*U[u]*\[Psi][4][u])/
+   (Sqrt[Bc - Bc*u^4]*Abs[\[Lambda]]) - ((I/2)*(2*ky + B*x)*\[Psi][5][u])/
+   Sqrt[1 - u^4] - ((-(Sqrt[Bc]*L*m*(-1 + u^4)) + 
+     (-2 + u^4)*Sqrt[Bc - Bc*u^4])*\[Psi][6][u])/
+   (u*(-1 + u^4)*Sqrt[Bc - Bc*u^4]) + 
+  (I*(kx*(-1 + u^4) + Sqrt[1 - u^4]*\[Omega])*\[Psi][8][u])/(1 - u^4)^(3/2) + 
+  Derivative[1][\[Psi][6]][u], 
+ ((-I)*Sqrt[2]*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+        \[Lambda]^2))*Pi^(3/2)*U[u]*\[Psi][1][u])/
+   (Sqrt[Bc - Bc*u^4]*Abs[\[Lambda]]) + 
   (Sqrt[2]*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
-        \[Lambda]^2))*Pi^(3/2)*\[Psi][4][u])/(Sqrt[Bc - Bc*u^4]*
-    Abs[\[Lambda]]) + (I*(kx - kx*u^4 + Sqrt[1 - u^4]*\[Omega])*\[Psi][5][u])/
-   (1 - u^4)^(3/2) + ((Sqrt[1 - u^4]*(-2 + u^4) + L*(m - m*u^4))*
-    \[Psi][7][u])/(u*(1 - u^4)^(3/2)) - ((I/2)*(2*ky - B*x)*\[Psi][8][u])/
+        \[Lambda]^2))*Pi^(3/2)*U[u]*\[Psi][4][u])/
+   (Sqrt[Bc - Bc*u^4]*Abs[\[Lambda]]) + 
+  (I*(kx - kx*u^4 + Sqrt[1 - u^4]*\[Omega])*\[Psi][5][u])/(1 - u^4)^(3/2) - 
+  ((-(Sqrt[Bc]*L*m*(-1 + u^4)) + (-2 + u^4)*Sqrt[Bc - Bc*u^4])*\[Psi][7][u])/
+   (u*(-1 + u^4)*Sqrt[Bc - Bc*u^4]) - ((I/2)*(2*ky + B*x)*\[Psi][8][u])/
    Sqrt[1 - u^4] + Derivative[1][\[Psi][7]][u], 
- (I*Sqrt[2]*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
-        \[Lambda]^2))*Pi^(3/2)*\[Psi][2][u])/(Sqrt[Bc - Bc*u^4]*
-    Abs[\[Lambda]]) + 
+ ((-I)*Sqrt[2]*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
+        \[Lambda]^2))*Pi^(3/2)*U[u]*\[Psi][2][u])/
+   (Sqrt[Bc - Bc*u^4]*Abs[\[Lambda]]) - 
   (Sqrt[2]*E^((I/2)*((kx*(I*kx + 2*ky))/Bc + (ky*(ky*Pi + 2*K*\[Lambda]))/
-        \[Lambda]^2))*Pi^(3/2)*\[Psi][3][u])/(Sqrt[Bc - Bc*u^4]*
-    Abs[\[Lambda]]) + (I*(kx - kx*u^4 + Sqrt[1 - u^4]*\[Omega])*\[Psi][6][u])/
-   (1 - u^4)^(3/2) + ((I/2)*(2*ky - B*x)*\[Psi][7][u])/Sqrt[1 - u^4] + 
-  ((Sqrt[1 - u^4]*(-2 + u^4) + L*m*(-1 + u^4))*\[Psi][8][u])/
-   (u*(1 - u^4)^(3/2)) + Derivative[1][\[Psi][8]][u]}
+        \[Lambda]^2))*Pi^(3/2)*U[u]*\[Psi][3][u])/
+   (Sqrt[Bc - Bc*u^4]*Abs[\[Lambda]]) + 
+  (I*(kx - kx*u^4 + Sqrt[1 - u^4]*\[Omega])*\[Psi][6][u])/(1 - u^4)^(3/2) + 
+  ((I/2)*(2*ky + B*x)*\[Psi][7][u])/Sqrt[1 - u^4] - 
+  ((Sqrt[Bc]*L*m*(-1 + u^4) + (-2 + u^4)*Sqrt[Bc - Bc*u^4])*\[Psi][8][u])/
+   (u*(-1 + u^4)*Sqrt[Bc - Bc*u^4]) + Derivative[1][\[Psi][8]][u]}
