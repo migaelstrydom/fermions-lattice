@@ -1,0 +1,82 @@
+{(Sqrt[Pi]*Erf[(2*k*m + B*x)/(2*Sqrt[B])]*
+    (\[Omega]*Sqrt[gii[u]]*Sqrt[-gtt[u]] + kz*gtt[u])*\[Psi][2][m, u])/
+   (Sqrt[B]*Sqrt[gii[u]]*gtt[u]) + 
+  (Sqrt[Pi/3]*Erf[(-2*k*(m + 2*n) + 3*B*x)/(2*Sqrt[3]*Sqrt[B])]*U[u]*
+    \[Psi][6][-m - n, u])/(Sqrt[B]*E^((k^2*(2*m + n)^2)/(6*B))*
+    Sqrt[gii[u]]) + (Sqrt[Pi]*Erf[(2*k*m + B*x)/(2*Sqrt[B])]*\[Psi][1][m, u]*
+    (3*gtt[u]*Derivative[1][gii][u] + gii[u]*(-4*M*gtt[u]*Sqrt[guu[u]] + 
+       Derivative[1][gtt][u])))/(4*Sqrt[B]*gii[u]*gtt[u]*Sqrt[guu[u]]) + 
+  (Sqrt[Pi]*Erf[(2*k*m + B*x)/(2*Sqrt[B])]*Derivative[0, 1][\[Psi][1]][m, u])/
+   (Sqrt[B]*Sqrt[guu[u]]), 
+ -((Sqrt[Pi]*Erf[(2*k*m + B*x)/(2*Sqrt[B])]*(\[Omega]*Sqrt[gii[u]] + 
+      kz*Sqrt[-gtt[u]])*\[Psi][1][m, u])/(Sqrt[B]*Sqrt[gii[u]]*
+     Sqrt[-gtt[u]])) + 
+  (Sqrt[Pi/3]*Erf[(-2*k*(m + 2*n) + 3*B*x)/(2*Sqrt[3]*Sqrt[B])]*U[u]*
+    \[Psi][5][-m - n, u])/(Sqrt[B]*E^((k^2*(2*m + n)^2)/(6*B))*
+    Sqrt[gii[u]]) - (Sqrt[Pi]*Erf[(2*k*m + B*x)/(2*Sqrt[B])]*\[Psi][2][m, u]*
+    (3*gtt[u]*Derivative[1][gii][u] + gii[u]*(4*M*gtt[u]*Sqrt[guu[u]] + 
+       Derivative[1][gtt][u])))/(4*Sqrt[B]*gii[u]*gtt[u]*Sqrt[guu[u]]) - 
+  (Sqrt[Pi]*Erf[(2*k*m + B*x)/(2*Sqrt[B])]*Derivative[0, 1][\[Psi][2]][m, u])/
+   (Sqrt[B]*Sqrt[guu[u]]), 
+ (I*Sqrt[Pi]*Erf[(2*k*m + B*x)/(2*Sqrt[B])]*
+    (\[Omega]*Sqrt[gii[u]]*Sqrt[-gtt[u]] - kz*gtt[u])*\[Psi][1][m, u])/
+   (Sqrt[B]*Sqrt[gii[u]]*gtt[u]) + 
+  (I*Sqrt[Pi/3]*Erf[(-2*k*(m + 2*n) + 3*B*x)/(2*Sqrt[3]*Sqrt[B])]*U[u]*
+    \[Psi][5][-m - n, u])/(Sqrt[B]*E^((k^2*(2*m + n)^2)/(6*B))*
+    Sqrt[gii[u]]) - ((I/4)*Sqrt[Pi]*Erf[(2*k*m + B*x)/(2*Sqrt[B])]*
+    \[Psi][2][m, u]*(3*gtt[u]*Derivative[1][gii][u] + 
+     gii[u]*(4*M*gtt[u]*Sqrt[guu[u]] + Derivative[1][gtt][u])))/
+   (Sqrt[B]*gii[u]*gtt[u]*Sqrt[guu[u]]) - 
+  (I*Sqrt[Pi]*Erf[(2*k*m + B*x)/(2*Sqrt[B])]*Derivative[0, 1][\[Psi][2]][m, 
+     u])/(Sqrt[B]*Sqrt[guu[u]]), 
+ (I*Sqrt[Pi]*Erf[(2*k*m + B*x)/(2*Sqrt[B])]*(\[Omega]*Sqrt[gii[u]] - 
+     kz*Sqrt[-gtt[u]])*\[Psi][2][m, u])/(Sqrt[B]*Sqrt[gii[u]]*
+    Sqrt[-gtt[u]]) - 
+  (I*Sqrt[Pi/3]*Erf[(-2*k*(m + 2*n) + 3*B*x)/(2*Sqrt[3]*Sqrt[B])]*U[u]*
+    \[Psi][6][-m - n, u])/(Sqrt[B]*E^((k^2*(2*m + n)^2)/(6*B))*
+    Sqrt[gii[u]]) - ((I/4)*Sqrt[Pi]*Erf[(2*k*m + B*x)/(2*Sqrt[B])]*
+    \[Psi][1][m, u]*(3*gtt[u]*Derivative[1][gii][u] + 
+     gii[u]*(-4*M*gtt[u]*Sqrt[guu[u]] + Derivative[1][gtt][u])))/
+   (Sqrt[B]*gii[u]*gtt[u]*Sqrt[guu[u]]) - 
+  (I*Sqrt[Pi]*Erf[(2*k*m + B*x)/(2*Sqrt[B])]*Derivative[0, 1][\[Psi][1]][m, 
+     u])/(Sqrt[B]*Sqrt[guu[u]]), 
+ -((Sqrt[Pi/3]*Erf[(2*k*(m - 2*n) + 3*B*x)/(2*Sqrt[3]*Sqrt[B])]*U[u]*
+     \[Psi][2][m - n, u])/(Sqrt[B]*E^((k^2*(-2*m + n)^2)/(6*B))*
+     Sqrt[gii[u]])) - (Sqrt[Pi]*Erf[(2*k*m + B*x)/(2*Sqrt[B])]*
+    (\[Omega]*Sqrt[gii[u]]*Sqrt[-gtt[u]] - kz*gtt[u])*\[Psi][6][-m, u])/
+   (Sqrt[B]*Sqrt[gii[u]]*gtt[u]) + (Sqrt[Pi]*Erf[(2*k*m + B*x)/(2*Sqrt[B])]*
+    \[Psi][5][-m, u]*(3*gtt[u]*Derivative[1][gii][u] + 
+     gii[u]*(-4*M*gtt[u]*Sqrt[guu[u]] + Derivative[1][gtt][u])))/
+   (4*Sqrt[B]*gii[u]*gtt[u]*Sqrt[guu[u]]) + 
+  (Sqrt[Pi]*Erf[(2*k*m + B*x)/(2*Sqrt[B])]*Derivative[0, 1][\[Psi][5]][-m, 
+     u])/(Sqrt[B]*Sqrt[guu[u]]), 
+ -((Sqrt[Pi/3]*Erf[(2*k*(m - 2*n) + 3*B*x)/(2*Sqrt[3]*Sqrt[B])]*U[u]*
+     \[Psi][1][m - n, u])/(Sqrt[B]*E^((k^2*(-2*m + n)^2)/(6*B))*
+     Sqrt[gii[u]])) - (Sqrt[Pi]*Erf[(2*k*m + B*x)/(2*Sqrt[B])]*
+    (\[Omega]*Sqrt[gii[u]]*Sqrt[-gtt[u]] + kz*gtt[u])*\[Psi][5][-m, u])/
+   (Sqrt[B]*Sqrt[gii[u]]*gtt[u]) - (Sqrt[Pi]*Erf[(2*k*m + B*x)/(2*Sqrt[B])]*
+    \[Psi][6][-m, u]*(3*gtt[u]*Derivative[1][gii][u] + 
+     gii[u]*(4*M*gtt[u]*Sqrt[guu[u]] + Derivative[1][gtt][u])))/
+   (4*Sqrt[B]*gii[u]*gtt[u]*Sqrt[guu[u]]) - 
+  (Sqrt[Pi]*Erf[(2*k*m + B*x)/(2*Sqrt[B])]*Derivative[0, 1][\[Psi][6]][-m, 
+     u])/(Sqrt[B]*Sqrt[guu[u]]), 
+ (I*Sqrt[Pi/3]*Erf[(2*k*(m - 2*n) + 3*B*x)/(2*Sqrt[3]*Sqrt[B])]*U[u]*
+    \[Psi][1][m - n, u])/(Sqrt[B]*E^((k^2*(-2*m + n)^2)/(6*B))*
+    Sqrt[gii[u]]) + (I*Sqrt[Pi]*Erf[(2*k*m + B*x)/(2*Sqrt[B])]*
+    (\[Omega]*Sqrt[gii[u]]*Sqrt[-gtt[u]] + kz*gtt[u])*\[Psi][5][-m, u])/
+   (Sqrt[B]*Sqrt[gii[u]]*gtt[u]) + 
+  ((I/4)*Sqrt[Pi]*Erf[(2*k*m + B*x)/(2*Sqrt[B])]*\[Psi][6][-m, u]*
+    (3*gtt[u]*Derivative[1][gii][u] + gii[u]*(4*M*gtt[u]*Sqrt[guu[u]] + 
+       Derivative[1][gtt][u])))/(Sqrt[B]*gii[u]*gtt[u]*Sqrt[guu[u]]) + 
+  (I*Sqrt[Pi]*Erf[(2*k*m + B*x)/(2*Sqrt[B])]*Derivative[0, 1][\[Psi][6]][-m, 
+     u])/(Sqrt[B]*Sqrt[guu[u]]), 
+ ((-I)*Sqrt[Pi/3]*Erf[(2*k*(m - 2*n) + 3*B*x)/(2*Sqrt[3]*Sqrt[B])]*U[u]*
+    \[Psi][2][m - n, u])/(Sqrt[B]*E^((k^2*(-2*m + n)^2)/(6*B))*
+    Sqrt[gii[u]]) - (I*Sqrt[Pi]*Erf[(2*k*m + B*x)/(2*Sqrt[B])]*
+    (\[Omega]*Sqrt[gii[u]]*Sqrt[-gtt[u]] - kz*gtt[u])*\[Psi][6][-m, u])/
+   (Sqrt[B]*Sqrt[gii[u]]*gtt[u]) + 
+  ((I/4)*Sqrt[Pi]*Erf[(2*k*m + B*x)/(2*Sqrt[B])]*\[Psi][5][-m, u]*
+    (3*gtt[u]*Derivative[1][gii][u] + gii[u]*(-4*M*gtt[u]*Sqrt[guu[u]] + 
+       Derivative[1][gtt][u])))/(Sqrt[B]*gii[u]*gtt[u]*Sqrt[guu[u]]) + 
+  (I*Sqrt[Pi]*Erf[(2*k*m + B*x)/(2*Sqrt[B])]*Derivative[0, 1][\[Psi][5]][-m, 
+     u])/(Sqrt[B]*Sqrt[guu[u]])}
