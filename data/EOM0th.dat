@@ -1,0 +1,22 @@
+{((2 - u^4 + L*m*Sqrt[1 - u^4])*\[Psi][1][u])/(u*(-1 + u^4)) + 
+  (kz*\[Psi][2][u])/Sqrt[1 - u^4] - (I*\[Omega]*\[Psi][3][u])/(-1 + u^4) + 
+  Derivative[1][\[Psi][1]][u], -((kz*\[Psi][1][u])/Sqrt[1 - u^4]) + 
+  ((-2 + u^4 + L*m*Sqrt[1 - u^4])*\[Psi][2][u])/(u*(-1 + u^4)) + 
+  (I*\[Omega]*\[Psi][4][u])/(-1 + u^4) - Derivative[1][\[Psi][2]][u], 
+ (I*\[Omega]*\[Psi][1][u])/(-1 + u^4) + 
+  ((-2 + u^4 + L*m*Sqrt[1 - u^4])*\[Psi][3][u])/(u*(-1 + u^4)) + 
+  (kz*\[Psi][4][u])/Sqrt[1 - u^4] - Derivative[1][\[Psi][3]][u], 
+ ((-I)*\[Omega]*\[Psi][2][u])/(-1 + u^4) - (kz*\[Psi][3][u])/Sqrt[1 - u^4] + 
+  ((2 - u^4 + L*m*Sqrt[1 - u^4])*\[Psi][4][u])/(u*(-1 + u^4)) + 
+  Derivative[1][\[Psi][4]][u], 
+ -(((-2 + u^4 - L*m*Sqrt[1 - u^4])*\[Psi][5][u])/(u*(-1 + u^4))) + 
+  (kz*\[Psi][6][u])/Sqrt[1 - u^4] - (I*\[Omega]*\[Psi][7][u])/(-1 + u^4) + 
+  Derivative[1][\[Psi][5]][u], -((kz*\[Psi][5][u])/Sqrt[1 - u^4]) + 
+  ((-2 + u^4 + L*m*Sqrt[1 - u^4])*\[Psi][6][u])/(u*(-1 + u^4)) + 
+  (I*\[Omega]*\[Psi][8][u])/(-1 + u^4) - Derivative[1][\[Psi][6]][u], 
+ (I*\[Omega]*\[Psi][5][u])/(-1 + u^4) + 
+  ((-2 + u^4 + L*m*Sqrt[1 - u^4])*\[Psi][7][u])/(u*(-1 + u^4)) + 
+  (kz*\[Psi][8][u])/Sqrt[1 - u^4] - Derivative[1][\[Psi][7]][u], 
+ ((-I)*\[Omega]*\[Psi][6][u])/(-1 + u^4) - (kz*\[Psi][7][u])/Sqrt[1 - u^4] - 
+  ((-2 + u^4 - L*m*Sqrt[1 - u^4])*\[Psi][8][u])/(u*(-1 + u^4)) + 
+  Derivative[1][\[Psi][8]][u]}
