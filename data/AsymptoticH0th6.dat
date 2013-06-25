@@ -1,0 +1,261 @@
+{{-C\[Psi][3], -C\[Psi][4], C\[Psi][3], C\[Psi][4], -C\[Psi][7], -C\[Psi][8], 
+  C\[Psi][7], C\[Psi][8]}, {(-(L*m*C\[Psi][3]) + kz*C\[Psi][4])/
+   (I + \[Omega]), (kz*C\[Psi][3] + L*m*C\[Psi][4])/(I + \[Omega]), 
+  (-(L*m*C\[Psi][3]) + kz*C\[Psi][4])/(I + \[Omega]), 
+  (kz*C\[Psi][3] + L*m*C\[Psi][4])/(I + \[Omega]), 
+  (-(L*m*C\[Psi][7]) + kz*C\[Psi][8])/(I + \[Omega]), 
+  (kz*C\[Psi][7] + L*m*C\[Psi][8])/(I + \[Omega]), 
+  (-(L*m*C\[Psi][7]) + kz*C\[Psi][8])/(I + \[Omega]), 
+  (kz*C\[Psi][7] + L*m*C\[Psi][8])/(I + \[Omega])}, 
+ {((I/8)*(-13 + 4*kz^2 + 4*L^2*m^2 + (10*I)*\[Omega] - 3*\[Omega]^2)*
+    C\[Psi][3])/(I + \[Omega]), 
+  ((I/8)*(-13 + 4*kz^2 + 4*L^2*m^2 + (10*I)*\[Omega] - 3*\[Omega]^2)*
+    C\[Psi][4])/(I + \[Omega]), 
+  ((-I/8)*(-13 + 4*kz^2 + 4*L^2*m^2 + (10*I)*\[Omega] - 3*\[Omega]^2)*
+    C\[Psi][3])/(I + \[Omega]), 
+  ((-I/8)*(-13 + 4*kz^2 + 4*L^2*m^2 + (10*I)*\[Omega] - 3*\[Omega]^2)*
+    C\[Psi][4])/(I + \[Omega]), 
+  ((I/8)*(-13 + 4*kz^2 + 4*L^2*m^2 + (10*I)*\[Omega] - 3*\[Omega]^2)*
+    C\[Psi][7])/(I + \[Omega]), 
+  ((I/8)*(-13 + 4*kz^2 + 4*L^2*m^2 + (10*I)*\[Omega] - 3*\[Omega]^2)*
+    C\[Psi][8])/(I + \[Omega]), 
+  ((-I/8)*(-13 + 4*kz^2 + 4*L^2*m^2 + (10*I)*\[Omega] - 3*\[Omega]^2)*
+    C\[Psi][7])/(I + \[Omega]), 
+  ((-I/8)*(-13 + 4*kz^2 + 4*L^2*m^2 + (10*I)*\[Omega] - 3*\[Omega]^2)*
+    C\[Psi][8])/(I + \[Omega])}, 
+ {((-I/8)*(-4*L^3*m^3*C\[Psi][3] + L*m*(25 - 4*kz^2 - (2*I)*\[Omega] + 
+       3*\[Omega]^2)*C\[Psi][3] + 4*kz*L^2*m^2*C\[Psi][4] + 
+     kz*(-33 + 4*kz^2 + (10*I)*\[Omega] - 3*\[Omega]^2)*C\[Psi][4]))/
+   ((I + \[Omega])*(3*I + \[Omega])), 
+  ((-I/8)*(4*kz^3*C\[Psi][3] + kz*(-33 + 4*L^2*m^2 + (10*I)*\[Omega] - 
+       3*\[Omega]^2)*C\[Psi][3] + 4*kz^2*L*m*C\[Psi][4] + 
+     L*m*(-25 + 4*L^2*m^2 + (2*I)*\[Omega] - 3*\[Omega]^2)*C\[Psi][4]))/
+   ((I + \[Omega])*(3*I + \[Omega])), 
+  ((-I/8)*(-4*L^3*m^3*C\[Psi][3] + L*m*(25 - 4*kz^2 - (2*I)*\[Omega] + 
+       3*\[Omega]^2)*C\[Psi][3] + 4*kz*L^2*m^2*C\[Psi][4] + 
+     kz*(-33 + 4*kz^2 + (10*I)*\[Omega] - 3*\[Omega]^2)*C\[Psi][4]))/
+   ((I + \[Omega])*(3*I + \[Omega])), 
+  ((-I/8)*(4*kz^3*C\[Psi][3] + kz*(-33 + 4*L^2*m^2 + (10*I)*\[Omega] - 
+       3*\[Omega]^2)*C\[Psi][3] + 4*kz^2*L*m*C\[Psi][4] + 
+     L*m*(-25 + 4*L^2*m^2 + (2*I)*\[Omega] - 3*\[Omega]^2)*C\[Psi][4]))/
+   ((I + \[Omega])*(3*I + \[Omega])), 
+  ((-I/8)*(-4*L^3*m^3*C\[Psi][7] + L*m*(25 - 4*kz^2 - (2*I)*\[Omega] + 
+       3*\[Omega]^2)*C\[Psi][7] + 4*kz*L^2*m^2*C\[Psi][8] + 
+     kz*(-33 + 4*kz^2 + (10*I)*\[Omega] - 3*\[Omega]^2)*C\[Psi][8]))/
+   ((I + \[Omega])*(3*I + \[Omega])), 
+  ((-I/8)*(4*kz^3*C\[Psi][7] + kz*(-33 + 4*L^2*m^2 + (10*I)*\[Omega] - 
+       3*\[Omega]^2)*C\[Psi][7] + 4*kz^2*L*m*C\[Psi][8] + 
+     L*m*(-25 + 4*L^2*m^2 + (2*I)*\[Omega] - 3*\[Omega]^2)*C\[Psi][8]))/
+   ((I + \[Omega])*(3*I + \[Omega])), 
+  ((-I/8)*(-4*L^3*m^3*C\[Psi][7] + L*m*(25 - 4*kz^2 - (2*I)*\[Omega] + 
+       3*\[Omega]^2)*C\[Psi][7] + 4*kz*L^2*m^2*C\[Psi][8] + 
+     kz*(-33 + 4*kz^2 + (10*I)*\[Omega] - 3*\[Omega]^2)*C\[Psi][8]))/
+   ((I + \[Omega])*(3*I + \[Omega])), 
+  ((-I/8)*(4*kz^3*C\[Psi][7] + kz*(-33 + 4*L^2*m^2 + (10*I)*\[Omega] - 
+       3*\[Omega]^2)*C\[Psi][7] + 4*kz^2*L*m*C\[Psi][8] + 
+     L*m*(-25 + 4*L^2*m^2 + (2*I)*\[Omega] - 3*\[Omega]^2)*C\[Psi][8]))/
+   ((I + \[Omega])*(3*I + \[Omega]))}, 
+ {((135 + 16*kz^4 + 16*L^4*m^4 - (6*I)*\[Omega] + 160*\[Omega]^2 - 
+      (22*I)*\[Omega]^3 + 9*\[Omega]^4 + 8*kz^2*(-27 + 4*L^2*m^2 + 
+        (4*I)*\[Omega] - 3*\[Omega]^2) - 8*L^2*m^2*(11 + (4*I)*\[Omega] + 
+        3*\[Omega]^2))*C\[Psi][3] - 64*kz*L*m*C\[Psi][4])/
+   (128*(I + \[Omega])*(3*I + \[Omega])), 
+  (64*kz*L*m*C\[Psi][3] + 16*kz^4*C\[Psi][4] + 
+    8*kz^2*(-27 + 4*L^2*m^2 + (4*I)*\[Omega] - 3*\[Omega]^2)*C\[Psi][4] + 
+    (135 + 16*L^4*m^4 - (6*I)*\[Omega] + 160*\[Omega]^2 - (22*I)*\[Omega]^3 + 
+      9*\[Omega]^4 - 8*L^2*m^2*(11 + (4*I)*\[Omega] + 3*\[Omega]^2))*
+     C\[Psi][4])/(128*(I + \[Omega])*(3*I + \[Omega])), 
+  ((-135 - 16*kz^4 - 16*L^4*m^4 + (6*I)*\[Omega] - 160*\[Omega]^2 + 
+      (22*I)*\[Omega]^3 - 9*\[Omega]^4 - 8*kz^2*(-27 + 4*L^2*m^2 + 
+        (4*I)*\[Omega] - 3*\[Omega]^2) + 8*L^2*m^2*(11 + (4*I)*\[Omega] + 
+        3*\[Omega]^2))*C\[Psi][3] + 64*kz*L*m*C\[Psi][4])/
+   (128*(I + \[Omega])*(3*I + \[Omega])), 
+  (-64*kz*L*m*C\[Psi][3] - 16*kz^4*C\[Psi][4] - 
+    8*kz^2*(-27 + 4*L^2*m^2 + (4*I)*\[Omega] - 3*\[Omega]^2)*C\[Psi][4] + 
+    (-135 - 16*L^4*m^4 + (6*I)*\[Omega] - 160*\[Omega]^2 + 
+      (22*I)*\[Omega]^3 - 9*\[Omega]^4 + 8*L^2*m^2*(11 + (4*I)*\[Omega] + 
+        3*\[Omega]^2))*C\[Psi][4])/(128*(I + \[Omega])*(3*I + \[Omega])), 
+  ((135 + 16*kz^4 + 16*L^4*m^4 - (6*I)*\[Omega] + 160*\[Omega]^2 - 
+      (22*I)*\[Omega]^3 + 9*\[Omega]^4 + 8*kz^2*(-27 + 4*L^2*m^2 + 
+        (4*I)*\[Omega] - 3*\[Omega]^2) - 8*L^2*m^2*(11 + (4*I)*\[Omega] + 
+        3*\[Omega]^2))*C\[Psi][7] - 64*kz*L*m*C\[Psi][8])/
+   (128*(I + \[Omega])*(3*I + \[Omega])), 
+  (64*kz*L*m*C\[Psi][7] + 16*kz^4*C\[Psi][8] + 
+    8*kz^2*(-27 + 4*L^2*m^2 + (4*I)*\[Omega] - 3*\[Omega]^2)*C\[Psi][8] + 
+    (135 + 16*L^4*m^4 - (6*I)*\[Omega] + 160*\[Omega]^2 - (22*I)*\[Omega]^3 + 
+      9*\[Omega]^4 - 8*L^2*m^2*(11 + (4*I)*\[Omega] + 3*\[Omega]^2))*
+     C\[Psi][8])/(128*(I + \[Omega])*(3*I + \[Omega])), 
+  ((-135 - 16*kz^4 - 16*L^4*m^4 + (6*I)*\[Omega] - 160*\[Omega]^2 + 
+      (22*I)*\[Omega]^3 - 9*\[Omega]^4 - 8*kz^2*(-27 + 4*L^2*m^2 + 
+        (4*I)*\[Omega] - 3*\[Omega]^2) + 8*L^2*m^2*(11 + (4*I)*\[Omega] + 
+        3*\[Omega]^2))*C\[Psi][7] + 64*kz*L*m*C\[Psi][8])/
+   (128*(I + \[Omega])*(3*I + \[Omega])), 
+  (-64*kz*L*m*C\[Psi][7] - 16*kz^4*C\[Psi][8] - 
+    8*kz^2*(-27 + 4*L^2*m^2 + (4*I)*\[Omega] - 3*\[Omega]^2)*C\[Psi][8] + 
+    (-135 - 16*L^4*m^4 + (6*I)*\[Omega] - 160*\[Omega]^2 + 
+      (22*I)*\[Omega]^3 - 9*\[Omega]^4 + 8*L^2*m^2*(11 + (4*I)*\[Omega] + 
+        3*\[Omega]^2))*C\[Psi][8])/(128*(I + \[Omega])*(3*I + \[Omega]))}, 
+ {(16*L^5*m^5*C\[Psi][3] + 8*L^3*m^3*(5 + 4*kz^2 - (12*I)*\[Omega] - 
+      3*\[Omega]^2)*C\[Psi][3] + L*m*(-341 + 16*kz^4 + (458*I)*\[Omega] + 
+      132*\[Omega]^2 + (26*I)*\[Omega]^3 + 9*\[Omega]^4 - 
+      8*kz^2*(19 + (4*I)*\[Omega] + 3*\[Omega]^2))*C\[Psi][3] - 
+    16*kz*L^4*m^4*C\[Psi][4] + 8*kz*L^2*m^2*(11 - 4*kz^2 + (4*I)*\[Omega] + 
+      3*\[Omega]^2)*C\[Psi][4] - kz*(27 + 16*kz^4 + (154*I)*\[Omega] + 
+      244*\[Omega]^2 - (22*I)*\[Omega]^3 + 9*\[Omega]^4 - 
+      8*kz^2*(35 - (4*I)*\[Omega] + 3*\[Omega]^2))*C\[Psi][4])/
+   (128*(I + \[Omega])*(3*I + \[Omega])*(5*I + \[Omega])), 
+  -(16*kz^5*C\[Psi][3] + 8*kz^3*(-35 + 4*L^2*m^2 + (4*I)*\[Omega] - 
+       3*\[Omega]^2)*C\[Psi][3] + kz*(27 + 16*L^4*m^4 + (154*I)*\[Omega] + 
+       244*\[Omega]^2 - (22*I)*\[Omega]^3 + 9*\[Omega]^4 - 
+       8*L^2*m^2*(11 + (4*I)*\[Omega] + 3*\[Omega]^2))*C\[Psi][3] + 
+     16*kz^4*L*m*C\[Psi][4] + 8*kz^2*L*m*(-19 + 4*L^2*m^2 - (4*I)*\[Omega] - 
+       3*\[Omega]^2)*C\[Psi][4] + L*m*(-341 + 16*L^4*m^4 + (458*I)*\[Omega] + 
+       132*\[Omega]^2 + (26*I)*\[Omega]^3 + 9*\[Omega]^4 - 
+       8*L^2*m^2*(-5 + (12*I)*\[Omega] + 3*\[Omega]^2))*C\[Psi][4])/
+   (128*(I + \[Omega])*(3*I + \[Omega])*(5*I + \[Omega])), 
+  (16*L^5*m^5*C\[Psi][3] + 8*L^3*m^3*(5 + 4*kz^2 - (12*I)*\[Omega] - 
+      3*\[Omega]^2)*C\[Psi][3] + L*m*(-341 + 16*kz^4 + (458*I)*\[Omega] + 
+      132*\[Omega]^2 + (26*I)*\[Omega]^3 + 9*\[Omega]^4 - 
+      8*kz^2*(19 + (4*I)*\[Omega] + 3*\[Omega]^2))*C\[Psi][3] - 
+    16*kz*L^4*m^4*C\[Psi][4] + 8*kz*L^2*m^2*(11 - 4*kz^2 + (4*I)*\[Omega] + 
+      3*\[Omega]^2)*C\[Psi][4] - kz*(27 + 16*kz^4 + (154*I)*\[Omega] + 
+      244*\[Omega]^2 - (22*I)*\[Omega]^3 + 9*\[Omega]^4 - 
+      8*kz^2*(35 - (4*I)*\[Omega] + 3*\[Omega]^2))*C\[Psi][4])/
+   (128*(I + \[Omega])*(3*I + \[Omega])*(5*I + \[Omega])), 
+  -(16*kz^5*C\[Psi][3] + 8*kz^3*(-35 + 4*L^2*m^2 + (4*I)*\[Omega] - 
+       3*\[Omega]^2)*C\[Psi][3] + kz*(27 + 16*L^4*m^4 + (154*I)*\[Omega] + 
+       244*\[Omega]^2 - (22*I)*\[Omega]^3 + 9*\[Omega]^4 - 
+       8*L^2*m^2*(11 + (4*I)*\[Omega] + 3*\[Omega]^2))*C\[Psi][3] + 
+     16*kz^4*L*m*C\[Psi][4] + 8*kz^2*L*m*(-19 + 4*L^2*m^2 - (4*I)*\[Omega] - 
+       3*\[Omega]^2)*C\[Psi][4] + L*m*(-341 + 16*L^4*m^4 + (458*I)*\[Omega] + 
+       132*\[Omega]^2 + (26*I)*\[Omega]^3 + 9*\[Omega]^4 - 
+       8*L^2*m^2*(-5 + (12*I)*\[Omega] + 3*\[Omega]^2))*C\[Psi][4])/
+   (128*(I + \[Omega])*(3*I + \[Omega])*(5*I + \[Omega])), 
+  (16*L^5*m^5*C\[Psi][7] + 8*L^3*m^3*(5 + 4*kz^2 - (12*I)*\[Omega] - 
+      3*\[Omega]^2)*C\[Psi][7] + L*m*(-341 + 16*kz^4 + (458*I)*\[Omega] + 
+      132*\[Omega]^2 + (26*I)*\[Omega]^3 + 9*\[Omega]^4 - 
+      8*kz^2*(19 + (4*I)*\[Omega] + 3*\[Omega]^2))*C\[Psi][7] - 
+    16*kz*L^4*m^4*C\[Psi][8] + 8*kz*L^2*m^2*(11 - 4*kz^2 + (4*I)*\[Omega] + 
+      3*\[Omega]^2)*C\[Psi][8] - kz*(27 + 16*kz^4 + (154*I)*\[Omega] + 
+      244*\[Omega]^2 - (22*I)*\[Omega]^3 + 9*\[Omega]^4 - 
+      8*kz^2*(35 - (4*I)*\[Omega] + 3*\[Omega]^2))*C\[Psi][8])/
+   (128*(I + \[Omega])*(3*I + \[Omega])*(5*I + \[Omega])), 
+  -(16*kz^5*C\[Psi][7] + 8*kz^3*(-35 + 4*L^2*m^2 + (4*I)*\[Omega] - 
+       3*\[Omega]^2)*C\[Psi][7] + kz*(27 + 16*L^4*m^4 + (154*I)*\[Omega] + 
+       244*\[Omega]^2 - (22*I)*\[Omega]^3 + 9*\[Omega]^4 - 
+       8*L^2*m^2*(11 + (4*I)*\[Omega] + 3*\[Omega]^2))*C\[Psi][7] + 
+     16*kz^4*L*m*C\[Psi][8] + 8*kz^2*L*m*(-19 + 4*L^2*m^2 - (4*I)*\[Omega] - 
+       3*\[Omega]^2)*C\[Psi][8] + L*m*(-341 + 16*L^4*m^4 + (458*I)*\[Omega] + 
+       132*\[Omega]^2 + (26*I)*\[Omega]^3 + 9*\[Omega]^4 - 
+       8*L^2*m^2*(-5 + (12*I)*\[Omega] + 3*\[Omega]^2))*C\[Psi][8])/
+   (128*(I + \[Omega])*(3*I + \[Omega])*(5*I + \[Omega])), 
+  (16*L^5*m^5*C\[Psi][7] + 8*L^3*m^3*(5 + 4*kz^2 - (12*I)*\[Omega] - 
+      3*\[Omega]^2)*C\[Psi][7] + L*m*(-341 + 16*kz^4 + (458*I)*\[Omega] + 
+      132*\[Omega]^2 + (26*I)*\[Omega]^3 + 9*\[Omega]^4 - 
+      8*kz^2*(19 + (4*I)*\[Omega] + 3*\[Omega]^2))*C\[Psi][7] - 
+    16*kz*L^4*m^4*C\[Psi][8] + 8*kz*L^2*m^2*(11 - 4*kz^2 + (4*I)*\[Omega] + 
+      3*\[Omega]^2)*C\[Psi][8] - kz*(27 + 16*kz^4 + (154*I)*\[Omega] + 
+      244*\[Omega]^2 - (22*I)*\[Omega]^3 + 9*\[Omega]^4 - 
+      8*kz^2*(35 - (4*I)*\[Omega] + 3*\[Omega]^2))*C\[Psi][8])/
+   (128*(I + \[Omega])*(3*I + \[Omega])*(5*I + \[Omega])), 
+  -(16*kz^5*C\[Psi][7] + 8*kz^3*(-35 + 4*L^2*m^2 + (4*I)*\[Omega] - 
+       3*\[Omega]^2)*C\[Psi][7] + kz*(27 + 16*L^4*m^4 + (154*I)*\[Omega] + 
+       244*\[Omega]^2 - (22*I)*\[Omega]^3 + 9*\[Omega]^4 - 
+       8*L^2*m^2*(11 + (4*I)*\[Omega] + 3*\[Omega]^2))*C\[Psi][7] + 
+     16*kz^4*L*m*C\[Psi][8] + 8*kz^2*L*m*(-19 + 4*L^2*m^2 - (4*I)*\[Omega] - 
+       3*\[Omega]^2)*C\[Psi][8] + L*m*(-341 + 16*L^4*m^4 + (458*I)*\[Omega] + 
+       132*\[Omega]^2 + (26*I)*\[Omega]^3 + 9*\[Omega]^4 - 
+       8*L^2*m^2*(-5 + (12*I)*\[Omega] + 3*\[Omega]^2))*C\[Psi][8])/
+   (128*(I + \[Omega])*(3*I + \[Omega])*(5*I + \[Omega]))}, 
+ {((-I/3072)*((7425 + 64*kz^6 + 64*L^6*m^6 - (8160*I)*\[Omega] + 
+       3055*\[Omega]^2 - (4968*I)*\[Omega]^3 - 1133*\[Omega]^4 - 
+       (72*I)*\[Omega]^5 - 27*\[Omega]^6 + 48*kz^4*(-25 + 4*L^2*m^2 - 
+         (2*I)*\[Omega] - 3*\[Omega]^2) - 16*L^4*m^4*(-85 + (54*I)*\[Omega] + 
+         9*\[Omega]^2) + 4*L^2*m^2*(-2111 + (1242*I)*\[Omega] - 
+         132*\[Omega]^2 + (186*I)*\[Omega]^3 + 27*\[Omega]^4) + 
+       4*kz^2*(48*L^4*m^4 - 8*L^2*m^2*(-5 + (30*I)*\[Omega] + 9*\[Omega]^2) + 
+         3*(-501 + (590*I)*\[Omega] + 212*\[Omega]^2 + (14*I)*\[Omega]^3 + 
+           9*\[Omega]^4)))*C\[Psi][3] - 64*kz*L*m*(-27 + 12*kz^2 + 
+       12*L^2*m^2 - (14*I)*\[Omega] - 9*\[Omega]^2)*C\[Psi][4]))/
+   ((I + \[Omega])*(3*I + \[Omega])*(5*I + \[Omega])), 
+  ((-I/3072)*(768*kz^3*L*m*C\[Psi][3] + 64*kz*L*m*(-27 + 12*L^2*m^2 - 
+       (14*I)*\[Omega] - 9*\[Omega]^2)*C\[Psi][3] + 64*kz^6*C\[Psi][4] + 
+     48*kz^4*(-25 + 4*L^2*m^2 - (2*I)*\[Omega] - 3*\[Omega]^2)*C\[Psi][4] + 
+     4*kz^2*(48*L^4*m^4 - 8*L^2*m^2*(-5 + (30*I)*\[Omega] + 9*\[Omega]^2) + 
+       3*(-501 + (590*I)*\[Omega] + 212*\[Omega]^2 + (14*I)*\[Omega]^3 + 
+         9*\[Omega]^4))*C\[Psi][4] + (7425 + 64*L^6*m^6 - (8160*I)*\[Omega] + 
+       3055*\[Omega]^2 - (4968*I)*\[Omega]^3 - 1133*\[Omega]^4 - 
+       (72*I)*\[Omega]^5 - 27*\[Omega]^6 - 16*L^4*m^4*
+        (-85 + (54*I)*\[Omega] + 9*\[Omega]^2) + 
+       4*L^2*m^2*(-2111 + (1242*I)*\[Omega] - 132*\[Omega]^2 + 
+         (186*I)*\[Omega]^3 + 27*\[Omega]^4))*C\[Psi][4]))/
+   ((I + \[Omega])*(3*I + \[Omega])*(5*I + \[Omega])), 
+  ((I/3072)*((7425 + 64*kz^6 + 64*L^6*m^6 - (8160*I)*\[Omega] + 
+       3055*\[Omega]^2 - (4968*I)*\[Omega]^3 - 1133*\[Omega]^4 - 
+       (72*I)*\[Omega]^5 - 27*\[Omega]^6 + 48*kz^4*(-25 + 4*L^2*m^2 - 
+         (2*I)*\[Omega] - 3*\[Omega]^2) - 16*L^4*m^4*(-85 + (54*I)*\[Omega] + 
+         9*\[Omega]^2) + 4*L^2*m^2*(-2111 + (1242*I)*\[Omega] - 
+         132*\[Omega]^2 + (186*I)*\[Omega]^3 + 27*\[Omega]^4) + 
+       4*kz^2*(48*L^4*m^4 - 8*L^2*m^2*(-5 + (30*I)*\[Omega] + 9*\[Omega]^2) + 
+         3*(-501 + (590*I)*\[Omega] + 212*\[Omega]^2 + (14*I)*\[Omega]^3 + 
+           9*\[Omega]^4)))*C\[Psi][3] - 64*kz*L*m*(-27 + 12*kz^2 + 
+       12*L^2*m^2 - (14*I)*\[Omega] - 9*\[Omega]^2)*C\[Psi][4]))/
+   ((I + \[Omega])*(3*I + \[Omega])*(5*I + \[Omega])), 
+  ((I/3072)*(768*kz^3*L*m*C\[Psi][3] + 64*kz*L*m*(-27 + 12*L^2*m^2 - 
+       (14*I)*\[Omega] - 9*\[Omega]^2)*C\[Psi][3] + 64*kz^6*C\[Psi][4] + 
+     48*kz^4*(-25 + 4*L^2*m^2 - (2*I)*\[Omega] - 3*\[Omega]^2)*C\[Psi][4] + 
+     4*kz^2*(48*L^4*m^4 - 8*L^2*m^2*(-5 + (30*I)*\[Omega] + 9*\[Omega]^2) + 
+       3*(-501 + (590*I)*\[Omega] + 212*\[Omega]^2 + (14*I)*\[Omega]^3 + 
+         9*\[Omega]^4))*C\[Psi][4] + (7425 + 64*L^6*m^6 - (8160*I)*\[Omega] + 
+       3055*\[Omega]^2 - (4968*I)*\[Omega]^3 - 1133*\[Omega]^4 - 
+       (72*I)*\[Omega]^5 - 27*\[Omega]^6 - 16*L^4*m^4*
+        (-85 + (54*I)*\[Omega] + 9*\[Omega]^2) + 
+       4*L^2*m^2*(-2111 + (1242*I)*\[Omega] - 132*\[Omega]^2 + 
+         (186*I)*\[Omega]^3 + 27*\[Omega]^4))*C\[Psi][4]))/
+   ((I + \[Omega])*(3*I + \[Omega])*(5*I + \[Omega])), 
+  ((-I/3072)*((7425 + 64*kz^6 + 64*L^6*m^6 - (8160*I)*\[Omega] + 
+       3055*\[Omega]^2 - (4968*I)*\[Omega]^3 - 1133*\[Omega]^4 - 
+       (72*I)*\[Omega]^5 - 27*\[Omega]^6 + 48*kz^4*(-25 + 4*L^2*m^2 - 
+         (2*I)*\[Omega] - 3*\[Omega]^2) - 16*L^4*m^4*(-85 + (54*I)*\[Omega] + 
+         9*\[Omega]^2) + 4*L^2*m^2*(-2111 + (1242*I)*\[Omega] - 
+         132*\[Omega]^2 + (186*I)*\[Omega]^3 + 27*\[Omega]^4) + 
+       4*kz^2*(48*L^4*m^4 - 8*L^2*m^2*(-5 + (30*I)*\[Omega] + 9*\[Omega]^2) + 
+         3*(-501 + (590*I)*\[Omega] + 212*\[Omega]^2 + (14*I)*\[Omega]^3 + 
+           9*\[Omega]^4)))*C\[Psi][7] - 64*kz*L*m*(-27 + 12*kz^2 + 
+       12*L^2*m^2 - (14*I)*\[Omega] - 9*\[Omega]^2)*C\[Psi][8]))/
+   ((I + \[Omega])*(3*I + \[Omega])*(5*I + \[Omega])), 
+  ((-I/3072)*(768*kz^3*L*m*C\[Psi][7] + 64*kz*L*m*(-27 + 12*L^2*m^2 - 
+       (14*I)*\[Omega] - 9*\[Omega]^2)*C\[Psi][7] + 64*kz^6*C\[Psi][8] + 
+     48*kz^4*(-25 + 4*L^2*m^2 - (2*I)*\[Omega] - 3*\[Omega]^2)*C\[Psi][8] + 
+     4*kz^2*(48*L^4*m^4 - 8*L^2*m^2*(-5 + (30*I)*\[Omega] + 9*\[Omega]^2) + 
+       3*(-501 + (590*I)*\[Omega] + 212*\[Omega]^2 + (14*I)*\[Omega]^3 + 
+         9*\[Omega]^4))*C\[Psi][8] + (7425 + 64*L^6*m^6 - (8160*I)*\[Omega] + 
+       3055*\[Omega]^2 - (4968*I)*\[Omega]^3 - 1133*\[Omega]^4 - 
+       (72*I)*\[Omega]^5 - 27*\[Omega]^6 - 16*L^4*m^4*
+        (-85 + (54*I)*\[Omega] + 9*\[Omega]^2) + 
+       4*L^2*m^2*(-2111 + (1242*I)*\[Omega] - 132*\[Omega]^2 + 
+         (186*I)*\[Omega]^3 + 27*\[Omega]^4))*C\[Psi][8]))/
+   ((I + \[Omega])*(3*I + \[Omega])*(5*I + \[Omega])), 
+  ((I/3072)*((7425 + 64*kz^6 + 64*L^6*m^6 - (8160*I)*\[Omega] + 
+       3055*\[Omega]^2 - (4968*I)*\[Omega]^3 - 1133*\[Omega]^4 - 
+       (72*I)*\[Omega]^5 - 27*\[Omega]^6 + 48*kz^4*(-25 + 4*L^2*m^2 - 
+         (2*I)*\[Omega] - 3*\[Omega]^2) - 16*L^4*m^4*(-85 + (54*I)*\[Omega] + 
+         9*\[Omega]^2) + 4*L^2*m^2*(-2111 + (1242*I)*\[Omega] - 
+         132*\[Omega]^2 + (186*I)*\[Omega]^3 + 27*\[Omega]^4) + 
+       4*kz^2*(48*L^4*m^4 - 8*L^2*m^2*(-5 + (30*I)*\[Omega] + 9*\[Omega]^2) + 
+         3*(-501 + (590*I)*\[Omega] + 212*\[Omega]^2 + (14*I)*\[Omega]^3 + 
+           9*\[Omega]^4)))*C\[Psi][7] - 64*kz*L*m*(-27 + 12*kz^2 + 
+       12*L^2*m^2 - (14*I)*\[Omega] - 9*\[Omega]^2)*C\[Psi][8]))/
+   ((I + \[Omega])*(3*I + \[Omega])*(5*I + \[Omega])), 
+  ((I/3072)*(768*kz^3*L*m*C\[Psi][7] + 64*kz*L*m*(-27 + 12*L^2*m^2 - 
+       (14*I)*\[Omega] - 9*\[Omega]^2)*C\[Psi][7] + 64*kz^6*C\[Psi][8] + 
+     48*kz^4*(-25 + 4*L^2*m^2 - (2*I)*\[Omega] - 3*\[Omega]^2)*C\[Psi][8] + 
+     4*kz^2*(48*L^4*m^4 - 8*L^2*m^2*(-5 + (30*I)*\[Omega] + 9*\[Omega]^2) + 
+       3*(-501 + (590*I)*\[Omega] + 212*\[Omega]^2 + (14*I)*\[Omega]^3 + 
+         9*\[Omega]^4))*C\[Psi][8] + (7425 + 64*L^6*m^6 - (8160*I)*\[Omega] + 
+       3055*\[Omega]^2 - (4968*I)*\[Omega]^3 - 1133*\[Omega]^4 - 
+       (72*I)*\[Omega]^5 - 27*\[Omega]^6 - 16*L^4*m^4*
+        (-85 + (54*I)*\[Omega] + 9*\[Omega]^2) + 
+       4*L^2*m^2*(-2111 + (1242*I)*\[Omega] - 132*\[Omega]^2 + 
+         (186*I)*\[Omega]^3 + 27*\[Omega]^4))*C\[Psi][8]))/
+   ((I + \[Omega])*(3*I + \[Omega])*(5*I + \[Omega]))}}
